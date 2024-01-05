@@ -2,6 +2,10 @@
   box-shadow: none !important;
 }
 
+#recipient_gif svg, #amount_gif svg, #confirm_pay_gif svg{
+  transform: unset !important;
+}
+
 /* begin hero section */
 .hero_section {
   border-radius: 0px 0px 0px 120px;
