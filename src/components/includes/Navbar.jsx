@@ -13,18 +13,18 @@ const Navbar = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
 
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <div style={{textAlign:"center"}} className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav m-auto">
-        <li className="nav-item me-5">
+        <li className="nav-item me-md-5">
           <a className="nav-link fs-6 fw-normal text-dark" aria-current="page" href="/">Home</a>
         </li>
-        <li className="nav-item me-5">
+        <li className="nav-item me-md-5">
           <a className="nav-link fs-6 fw-normal text-dark" href="/blogs">Blogs</a>
         </li>
-        <li className="nav-item me-5">
+        <li className="nav-item me-md-5">
           <a className="nav-link fs-6 fw-normal text-dark" href="/contact">Contact</a>
         </li> 
-        <li className="nav-item">
+        <li className="nav-item me-md-5">
           <a className="nav-link fs-6 fw-normal text-dark" href="/faq">FAQ's</a>
         </li> 
       </ul>

@@ -15,10 +15,10 @@ export { default as transparent } from "./transparent.svg";
 // end hero section
 
 export { default as star } from "./star.png";
-export { default as choose_recipient } from "./choose_recipient.png";
 export { default as tagocash_different } from "./tagocash_different.png";
 export { default as tagocash_different_mobile } from "./tagocash_different_mobile.png";
-export { default as pointer_star } from "./pointer_star.svg";
+export { default as black_star } from "./black_star.svg";
+export { default as blue_star } from "./blue_star.svg";
 
 // download app section
 export { default as download_section_logo } from "./download_section_logo.png";

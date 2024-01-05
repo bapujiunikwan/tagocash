@@ -1,3 +1,6 @@
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
 
 /* begin hero section */
 .hero_section {
@@ -82,7 +85,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 .fasst_fast_text_width {
@@ -114,7 +117,7 @@
 .payment_process_card {
   padding: 25px 50px;
   border-radius: 21px;
-  background: #f5f9ff;
+  /* background: #f5f9ff; */
 }
 
 .number_block {
@@ -132,9 +135,9 @@
   margin-left: -50px;
 }
 
-.number_block.active {
+/* .number_block.active {
   background: #0581f8;
-}
+} */
 
 .payment_process_card_text {
   line-height: 30px;
@@ -143,9 +146,32 @@
 }
 
 .tagocash_features_title {
-  line-height: normal;
   color: #0581f8;
 }
+
+.d-flex.active .number_block{
+  background: #0581f8;
+}
+
+.d-flex.active .fw-bold{
+  font-weight: 700;
+}
+
+.d-flex.active .payment_process_card{
+  background: #f5f9ff;
+}
+
+.d-flex.active .hero_subtitle{
+  color: #0581f8; 
+}
+
+/* .content {
+  visibility: hidden;
+}
+
+.active-content {
+  visibility: visible;
+} */
 
 .tagocash_features_text {
   font-family: 'Source Sans 3', sans-serif;

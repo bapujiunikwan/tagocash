@@ -10,7 +10,7 @@ const HeroSection = () => {
               Everywhere you go, <span className="hero_title_tago">Tago!</span>
             </h1>
             <h3 className="hero_subtitle subtitle_small mt-3 text-center text-md-start">
-             TagoCash, is your cash stored in digital wallet.<br />
+             TagoCash, is your cash stored in digital wallet<br />
               <span className="sub_text hero_subtext">
               Take it with you where ever you go!
               </span>

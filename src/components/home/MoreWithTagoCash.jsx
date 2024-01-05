@@ -34,7 +34,7 @@ const MoreWithTagoCash = () => {
               </div>
               <div>
                 <p className="fasst_feature_description get_more_subtext coinstar_text mt-2">
-                  Withdraw local cash from 40,000+ coinstar ATM.
+                  Withdraw local cash from 40,000+ coinstar ATM
                 </p>
               </div>
             </div>
@@ -54,7 +54,7 @@ const MoreWithTagoCash = () => {
             </div>
             <div>
               <p className="fasst_feature_description get_more_subtext linked_bank_text ms-3">
-                Instant transfer to and from linked bank accounts.
+                Instant transfer to and from linked bank accounts
               </p>
             </div>
           </div>
@@ -80,14 +80,14 @@ const MoreWithTagoCash = () => {
             </div>
           </div>
           <div class="col rounded-3 get_more_feature_padding get_feature_box">
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center mt-2">
               <div>
                 <img
                   src={money_gram}
                   width={"79px"}
                   height={"78px"}
                   alt=""
-                  className="ms-3 me-5"
+                  className="ms-3 me-5 mt-2"
                 />
               </div>
               <div>

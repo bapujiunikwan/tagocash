@@ -79,7 +79,7 @@ const FasstSection = () => {
                   <h3 className="hero_subtitle footer_title">Affordable</h3>
                 </div>
                 <p className="fasst_feature_description fasst_affordable_text_width pt-2">
-                  0$ to 1% transfer fee available.
+                  0$ to 1% transfer fee available
                 </p>
               </div>
             </div>
@@ -121,7 +121,7 @@ const FasstSection = () => {
                 <h3 className="hero_subtitle footer_title">Transparent</h3>
               </div>
               <p className="fasst_feature_description fasst_secure_text_width pt-2">
-                No hidden fees. <br /> You pay what you see.
+                No hidden fees, <br /> You pay what you see
               </p>
             </div>
           </div>
