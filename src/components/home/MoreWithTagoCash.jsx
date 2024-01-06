@@ -9,12 +9,12 @@ import {
 
 const MoreWithTagoCash = () => {
   return (
-    <div className="container margin_top">
+      <div className="container margin_top">
       <div class="more_with_tago_features grid-container my-5">
         <div className="row">
           <div class="col-5">
             <h2 className="hero_title get_more_title mt-3">Get more with </h2>
-            <img
+            <img className="get_more_logo"
               src={fasst_tagocash_logo}
               width={"288px"}
               height={"57px"}
@@ -112,7 +112,7 @@ const MoreWithTagoCash = () => {
             />
         </h3>
         <div className="d-flex gap-2">
-          <div>
+          <div className="get_more_width">
             <div className="d-flex align-items-center mobile_card cards_bg p-2">
               <div>
                 <p className="footer_subtext text-end me-1">
@@ -130,14 +130,14 @@ const MoreWithTagoCash = () => {
             </div>
           </div>
 
-          <div>
+          <div className="get_more_width">
             <div className="d-flex align-items-center bank_accout_card cards_bg p-2">
               <div>
                 <img src={bank} width={"45px"} height={"45px"} alt="" />
               </div>
               <div>
                 <p className="footer_subtext ms-1">
-                  Instant transfer to and from linked bank accounts.
+                  Instant transfer to and from linked bank accounts
                 </p>
               </div>
             </div>
@@ -145,7 +145,7 @@ const MoreWithTagoCash = () => {
         </div>
 
         <div className="d-flex gap-2 mt-2">
-          <div>
+          <div className="get_more_width">
             <div className="d-flex align-items-center store_card cards_bg p-2">
               <div>
                 <p className="footer_subtext text-end me-2">
@@ -163,7 +163,7 @@ const MoreWithTagoCash = () => {
             </div>
           </div>
 
-          <div>
+          <div className="get_more_width">
             <div className="d-flex align-items-center atm_card cards_bg p-2">
               <div>
                 <img
@@ -175,7 +175,7 @@ const MoreWithTagoCash = () => {
               </div>
               <div>
                 <p className="footer_subtext ms-2 ps-1">
-                Withdraw local cash  at 40,000+ Coinstar ATM.
+                Withdraw local cash  at 40,000+ Coinstar ATM
                 </p>
               </div>
             </div>

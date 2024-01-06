@@ -1,5 +1,10 @@
 import React from "react";
-import { download_section_logo, download_section_logo_mobile, google_play, app_store } from "../../assets";
+import {
+  download_section_logo,
+  download_section_logo_mobile,
+  google_play,
+  app_store,
+} from "../../assets";
 
 const DownloadApp = () => {
   return (
@@ -41,9 +46,10 @@ const DownloadApp = () => {
         </div>
       </div>
 
-{/* mobile */}
+      {/* mobile */}
       <div className="d-block d-md-none download_app_section mt-5 position-relative">
-      <img className="position-absolute bottom-0 start-50 translate-middle-x"
+        <img
+          className="position-absolute bottom-0 start-50 translate-middle-x"
           src={download_section_logo_mobile}
           height={"120px"}
           width={"303px"}
@@ -62,7 +68,7 @@ const DownloadApp = () => {
           </div>
         </div>
 
-<div className="d-flex flex-column align-items-center gap-3 mt-4">
+        <div className="d-flex flex-column align-items-center gap-3 mt-4 position-relative">
           <a className="text-decoration-none" href="">
             <div className="d-flex align-items-center justify-content-center app_link gap-2">
               <p className="footer_subtext text-white my-2 p-1">Google Play</p>
@@ -76,7 +82,6 @@ const DownloadApp = () => {
             </div>
           </a>
         </div>
-        
       </div>
     </>
   );

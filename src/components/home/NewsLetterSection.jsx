@@ -34,7 +34,7 @@ const NewsLetterSection = () => {
               </div>
               
           </div>
-          <div className='d-flex gap-5 subscribe_block subscribe_field_mobile'>
+          <div className='d-flex gap-5 subscribe_field_mobile'>
                   <input type="email" className='form-control outline-none border-0 hover-none rounded-5' placeholder="example@xyz.com" name="" id="" />
                   <button type="submit" className="btn btn-primary rounded-5 px-3">Subscribe</button>
               </div>

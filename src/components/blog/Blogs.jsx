@@ -5,7 +5,9 @@ const Blogs = () => {
   return (
     <div className="blog_section margin_top mb-5">
       <div className="container">
+      <a href="/" className="text-decoration-none text-black">
         <p className="my-4 d-block d-md-none">&lt; Back</p>
+        </a>
         <div>
           <h3 className="hero_title">
             <span className="hero_title_tago">Tago </span>Blogs
@@ -95,7 +97,7 @@ const Blogs = () => {
         </div>
 
         <div className="d-md-flex justify-content-between mb-4 mt-4">
-          <div class="card shadow border-0 cards">
+          <div class="card mb-4 mb-md-0 shadow border-0 cards">
             <img
               src={blog_1}
               className="card-img-top p-2"
@@ -126,7 +128,7 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div class="card shadow border-0 cards">
+          <div class="card mb-4 mb-md-0 shadow border-0 cards">
             <img
               src={blog_2}
               className="card-img-top p-2"
@@ -157,7 +159,7 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div class="card shadow border-0 cards">
+          <div class="card mb-4 mb-md-0 shadow border-0 cards">
             <img
               src={blog_3}
               className="card-img-top p-2"
@@ -190,7 +192,7 @@ const Blogs = () => {
         </div>
 
         <div className="d-md-flex justify-content-between my-md-5">
-          <div class="card shadow border-0 cards">
+          <div class="card mb-4 mb-md-0 shadow border-0 cards">
             <img
               src={blog_1}
               className="card-img-top p-2"
@@ -221,7 +223,7 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div class="card shadow border-0 cards">
+          <div class="card mb-4 mb-md-0 shadow border-0 cards">
             <img
               src={blog_2}
               className="card-img-top p-2"
@@ -252,7 +254,7 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div class="card shadow border-0 cards">
+          <div class="card mb-4 mb-md-0 shadow border-0 cards">
             <img
               src={blog_3}
               className="card-img-top p-2"

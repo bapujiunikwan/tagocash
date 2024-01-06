@@ -22,16 +22,18 @@ const BlogContent = () => {
   return (
     <div className="blog_section margin_top mb-5">
       <div className="container mb-5">
-      <p className='my-4 d-block d-md-none'>&lt; Back</p>
+      <a href="/blogs" className="text-decoration-none text-black">
+        <p className='my-4 d-block d-md-none'>&lt; Back</p> 
+      </a>
         <nav className="d-md-block d-none" style={breadcrumbStyle} aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
-              <a className="text-decoration-none text-black" href="#">
+              <a className="text-decoration-none text-black" href="/home">
                 Home
               </a>
             </li>
             <li class="breadcrumb-item">
-              <a className="text-decoration-none text-black" href="#">
+              <a className="text-decoration-none text-black" href="/blogs">
                 Blogs
               </a>
             </li>
@@ -163,7 +165,7 @@ const BlogContent = () => {
                   issued at Rs 80 to the investor. This means the company only
                   receives Rs 80 on a loan of Rs 100. At maturity, the entire
                   face value of the bond is repaid. Through this process, the
-                  investor/lender has earned Rs 20 on the bond. <br /> Also
+                  investor/lender has earned Rs 20 on the bond. <br /> <br/> Also
                   Read: &nbsp;
                   <a className="text-decoration-none download_app_subtext text-primary blogs_subtext" href="">
                     Investing in Sovereign Gold Bonds: Benefits, Risks and

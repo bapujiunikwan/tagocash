@@ -1,10 +1,20 @@
 import React from "react";
-import {app_store, google_play, hero, currencyanimation_image, hero_mobile } from "../../assets";
+import {app_store, google_play, currencyanimation } from "../../assets";
+import Lottie from "react-lottie";
+import heroLottie from "../../assets/lottieFiles/hero.json"
 
 const HeroSection = () => {
+  const globeOptions = {
+    loop: true,
+    autoplay: true, 
+    animationData: heroLottie,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
   return (
       <div className="container">
-        <div className="d-flex gap margin_top">
+        <div className="d-flex justify-content-center gap margin_top">
           <div className="mt-5">
             <h1 className="hero_title text-center text-md-start">
               Everywhere you go, <span className="hero_title_tago">Tago!</span>
@@ -17,12 +27,22 @@ const HeroSection = () => {
             </h3>
 
             <div className="d-lg-none d-block text-center mb-3">
-              <img src={hero_mobile} width={"266px"} height={"280px"} alt="" />
+              <Lottie options={globeOptions}
+              height={280}
+              width={266}
+              />
             </div>
+            <div className="d-md-flex d-md-none align-items-center margin_top my-5 gap-2">
+          <h3 className="sub_title globally_title text-center text-md-start">Available Globally in 
+          40+ currencies</h3>
+          <div className="currency_animation_block">
+            <img className="currencyanimation_image_size" src={currencyanimation} alt="currencies" width={"849px"} height={"64px"} />
+          </div>
+        </div>
             <div className="d-md-none d-block text-center mb-4 footer_subtext">
             Download now , on 
             </div>
-            <div className="d-flex justify-content-center justify-content-md-start gap-3 mt-md-5 mb-md-0 mb-5">
+            <div className="d-flex justify-content-center justify-content-lg-start gap-3 mt-md-5 mb-md-0 mb-5">
             <a className="text-decoration-none" href="">
                       <div className="d-flex align-items-center justify-content-center app_link gap-2">
                         <p className="footer_subtext text-white my-2 p-1">App Store</p>
@@ -40,15 +60,21 @@ const HeroSection = () => {
           </div>
 
           <div className="ms-5 d-lg-block d-none">
-            <img src={hero} alt="hero image" width={"474px"} height={"365px"} />
+            {/* <img src={hero} alt="hero image" width={"474px"} height={"365px"} /> */}
+            
+            <Lottie options={globeOptions}
+              height={365}
+              width={474}
+              />
+            
           </div>
         </div>
 
-        <div className="d-md-flex align-items-center margin_top mb-5 gap-3">
+        <div className="d-none d-md-flex flex-lg-row flex-column align-items-center margin_top mb-5 gap-3">
           <h3 className="sub_title globally_title text-center text-md-start">Available Globally in 
           40+ currencies</h3>
           <div className="currency_animation_block">
-            <img className="currencyanimation_image_size" src={currencyanimation_image} alt="currencies" width={"849px"} height={"64px"} />
+            <img className="currencyanimation_image_size" src={currencyanimation} alt="currencies" width={"849px"} height={"64px"} />
           </div>
         </div>
       </div>

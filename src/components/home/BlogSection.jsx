@@ -72,7 +72,7 @@ const BlogSection = () => {
             </div>
 
             {/* begin mobile */}
-            <div id="BlogcarouselIndicators" class="carousel slide d-md-none d-block">
+            <div id="BlogcarouselIndicators" class="carousel slide d-md-none d-block" data-bs-touch="true">
                 <div class="carousel-indicators blog_carousel_indicators">
                   <button
                     type="button"
@@ -96,8 +96,8 @@ const BlogSection = () => {
                   ></button>
                 </div>
                 <div class="carousel-inner mt-3">
-                  <div class="carousel-item active">
-                  <div class="card shadow border-0 cards">
+                  <div class="carousel-item active mb-5">
+                  <div class="card border cards">
                     <img src={blog_1} className="card-img-top p-2" alt="" width={"352px"} height={"258px"} />
                     <div className="card-body">
                         <div className='d-flex justify-content-between'>
@@ -117,8 +117,8 @@ const BlogSection = () => {
                     </div>
                 </div>
                   </div>
-                  <div class="carousel-item">
-                  <div class="card shadow border-0 cards">
+                  <div class="carousel-item mb-5">
+                  <div class="card border cards">
                     <img src={blog_2} className="card-img-top p-2" alt="" width={"352px"} height={"258px"} />
                     <div className="card-body">
                         <div className='d-flex justify-content-between'>
@@ -138,8 +138,8 @@ const BlogSection = () => {
                     </div>
                 </div>
                   </div>
-                  <div class="carousel-item">
-                  <div class="card shadow border-0 cards">
+                  <div class="carousel-item mb-5">
+                  <div class="card border cards">
                     <img src={blog_3} className="card-img-top p-2" alt="" width={"352px"} height={"258px"} />
                     <div className="card-body">
                         <div className='d-flex justify-content-between'>

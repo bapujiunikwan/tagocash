@@ -36,9 +36,9 @@ const Footer = () => {
                 <div className="margin_top">
                     <h3 className="fasst_feature_description fw-semibold">Company</h3>
                     <div className="d-flex flex-column">
-                        <a href="" className="footer_page_link footer_subtext">Home</a>
+                        <a href="/home" className="footer_page_link footer_subtext">Home</a>
                         <a href="" className="footer_page_link footer_subtext mt-1 pt-1">About Us</a>
-                        <a href="" className="footer_page_link footer_subtext mt-1 pt-1">Blog</a>
+                        <a href="/blogs" className="footer_page_link footer_subtext mt-1 pt-1">Blog</a>
                         <a href="" className="footer_page_link footer_subtext mt-1 pt-1">What makes TagoCash Different</a>
                         <a href="" className="footer_page_link footer_subtext mt-1 py-1">Get more with TagoCash</a>
                     </div>
@@ -48,10 +48,9 @@ const Footer = () => {
                 <div className="margin_top">
                     <h3 className="fasst_feature_description fw-semibold">Legal</h3>
                     <div className="d-flex flex-column">
-                        <a href="" className="footer_page_link footer_subtext mt-md-1">Contact Us</a>
+                        <a href="/contact" className="footer_page_link footer_subtext mt-md-1">Contact Us</a>
                         <a href="" className="footer_page_link footer_subtext mt-2">Terms and Conditions</a>
-                        <a href="" className="footer_page_link footer_subtext mt-2">Privacy Policy</a>
-                       
+                        <a href="" className="footer_page_link footer_subtext mt-2">Privacy Policy</a>                 
                     </div>
 
                 </div>

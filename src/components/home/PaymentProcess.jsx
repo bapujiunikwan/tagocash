@@ -16,6 +16,7 @@ import confirmPayLottie from "../../assets/lottieFiles/confirm_pay.json"
 
 
 const PaymentProcess = () => {
+
   const recipientOptions = {
     loop: true,
     autoplay: true, 
@@ -44,6 +45,7 @@ const PaymentProcess = () => {
   };
 
   useEffect(() => {
+    // begin payment process desktop
     $("#recipient").addClass("active");
     $("#pay_subtext, #amount_subtext").hide();
     $("#recipient_subtext").show();
@@ -76,11 +78,107 @@ const PaymentProcess = () => {
       $("#amount_gif, #recipient_gif").hide();
       $("#confirm_pay_gif").show();
     });
+    // end payment process desktop
+
+    // begin payment process mobile
+    $("#amount_block, #pay_block, #amount_gif, #confirm_pay_gif").hide();
+    $("#recipient_block, #recipient_gif").show();
+    $("#mobile_btn1").addClass('active');
+    $("#mobile_btn2, #mobile_btn3").removeClass('active');
+    $(".payment_process_title").addClass("tagocash_features_title")
+
+
+    $("#number_one").on("click", function () { 
+      $("#amount_block, #pay_block, #amount_gif, #confirm_pay_gif").hide();
+      $("#recipient_block, #recipient_gif").show();
+      $("#mobile_btn1").addClass('active');
+      $("#mobile_btn2, #mobile_btn3").removeClass('active');
+    });
+
+    $("#number_two").on("click", function () { 
+      $("#recipient_block, #pay_block,  #recipient_gif, #confirm_pay_gif").hide();
+      $("#amount_block, #amount_gif").show();
+      $("#mobile_btn2").addClass('active');
+      $("#mobile_btn1, #mobile_btn3").removeClass('active');
+    });
+
+    $("#number_three").on("click", function () { 
+      $("#recipient_block, #amount_block, #amount_gif, #recipient_gif").hide();
+      $("#pay_block, #confirm_pay_gif").show();
+      $("#mobile_btn3").addClass('active');
+      $("#mobile_btn1, #mobile_btn2").removeClass('active');
+    });
+    // end payment process mobile
+
+    // begin read more section
+    const globallyContent = $('#globally_content');
+    const safeContent = $('#safe_content');
+    const privacyContent = $('#privacy_content');
+
+    const readMoreButton = $('.read_more');
+    const readLessButton = $('.read_less');
+
+    // Initial setup
+    readLessButton.hide();
+    $('.read_less_safe, .read_less_privacy').hide();
+    $('#global_blue_star, #safe_blue_star, #privacy_blue_star').hide();
+
+    // Show more content
+    readMoreButton.on('click', function () {
+      globallyContent.append(' Instantly exchangeable for local consumption. Spend it in dollars, Euro, Pesos, or any of 65+ different currencies.');
+      readMoreButton.hide();
+      readLessButton.show();
+      $('#global_blue_star').show();
+      $('#global_black_star').hide();
+      $('.global_title').addClass('tagocash_features_title');
+    });
+
+    // tagocash is safe
+    $('.read_more_safe').on('click', function () {
+      safeContent.append('  It is only available to you and requires your biometrics to access. Your TagoCash is not stored or controlled by the Tago Platform. It is only referenced on the wallet controlled by you.');
+      $('.read_more_safe, #safe_black_star').hide();
+      $('.read_less_safe, #safe_blue_star').show();
+      $('.safe_title').addClass('tagocash_features_title');
+    });
+
+    // tagocash is private
+    $('.read_more_privacy').on('click', function () {
+      privacyContent.append('You do not need to share your address or bank or credit/debit card details with anyone.When you want to give TagoCash to someone, you only need their mobile number and email address.');
+      $('.read_more_privacy, #privacy_black_star').hide();
+      $('.read_less_privacy, #privacy_blue_star').show();
+      $('.privacy_title').addClass('tagocash_features_title');
+    });
+
+    // Show less content
+    readLessButton.on('click', function () {
+      globallyContent.text('TagoCash is the cash of where you happen to be ');
+      readMoreButton.show();
+      readLessButton.hide();
+      $('#global_blue_star').hide();
+      $('#global_black_star').show();
+      $('.global_title').removeClass('tagocash_features_title');
+    });
+
+    // tagocash is safe
+    $('.read_less_safe').on('click', function () {
+      safeContent.text('TagoCash can not be stolen. ');
+      $('.read_more_safe, #safe_black_star').show();
+      $('.read_less_safe, #safe_blue_star').hide();
+      $('.safe_title').removeClass('tagocash_features_title');
+    });
+    // tagocash is private
+    $('.read_less_privacy').on('click', function () {
+      privacyContent.text('Using TagoCash protects your privacy. ');
+      $('.read_more_privacy, #privacy_black_star').show();
+      $('.read_less_privacy, #privacy_blue_star').hide();
+      $('.privacy_title').removeClass('tagocash_features_title');
+    });
+    // end read more 
 
     return () => {
-      $("#recipient_title").off("click");
-      $("#amount_title").off("click");
-      $("#confirm_pay_title").off("click");
+      $("#recipient_title, #amount_title, #confirm_pay_title, .read_more_safe, .read_less_safe, .read_more_privacy, .read_less_privacy, #number_one, #number_two, #number_three").off("click");
+      readMoreButton.off('click');
+      readLessButton.off('click');
     };
   }, []);
 
@@ -103,7 +201,7 @@ const PaymentProcess = () => {
           <div className="d-md-block d-none ps-5 mt-5">
             <div className="d-flex active" id="recipient">
               <div id="button1" className="number_block mt-4">
-                <p className="fw-bold fs-5">1</p>
+                <p className="fw-semibold fs-5">1</p>
               </div>
 
               <div className="payment_process_card">
@@ -121,7 +219,7 @@ const PaymentProcess = () => {
 
             <div className="d-flex mt-4" id="amount">
               <div id="button2" className="number_block mt-4">
-                <p className="fw-bold fs-5">2</p>
+                <p className="fw-semibold fs-5">2</p>
               </div>
 
               <div className="payment_process_card">
@@ -139,7 +237,7 @@ const PaymentProcess = () => {
 
             <div className="d-flex mt-4" id="confirm_pay">
               <div id="button3" className="number_block mt-4">
-                <p className="fw-bold fs-5">3</p>
+                <p className="fw-semibold fs-5">3</p>
               </div>
 
               <div className="payment_process_card">
@@ -184,28 +282,46 @@ const PaymentProcess = () => {
         <div className="d-block d-md-none">
           <div className="numbers_mobile">
             <div className="d-flex justify-content-around mt-4">
-              <div>
-                <p className="border border-dark rounded-4 px-4 fw-bold fs-5 bg-primary">
+              <div id="number_one">
+                <p id="mobile_btn1" className="border border-dark rounded-4 px-4 fw-semibold fs-5 active">
                   1
                 </p>
               </div>
-              <div>
-                <p className="border border-dark rounded-4 px-4 fw-bold fs-5">
+              <div id="number_two">
+                <p id="mobile_btn2" className="border border-dark rounded-4 px-4 fw-semibold fs-5">
                   2
                 </p>
               </div>
-              <div>
-                <p className="border border-dark rounded-4 px-4 fw-bold fs-5">
+              <div id="number_three">
+                <p id="mobile_btn3" className="border border-dark rounded-4 px-4 fw-semibold fs-5">
                   3
                 </p>
               </div>
             </div>
           </div>
           <div className="payment_process_card text-center">
-            <h3 className="hero_subtitle subtitle_small">Choose Recipient</h3>
-            <p className="sub_text payment_process_card_text simple_steps_text">
-              Find your partner on tagocash app via his phone or email.
-            </p>
+            <div id="recipient_block">
+              <h3 className="hero_subtitle subtitle_small payment_process_title">Choose Recipient</h3>
+              <p className="sub_text payment_process_card_text simple_steps_text">
+                Find your partner on tagocash app via his phone or email.
+              </p>
+            </div>
+
+            <div id="amount_block">
+              <h3 className="hero_subtitle subtitle_small payment_process_title">Enter Amount</h3>
+              <p className="sub_text payment_process_card_text simple_steps_text">
+              Enter the amount to send from your wallet balance
+              </p>
+            </div>
+            
+            <div id="pay_block">
+              <h3 className="hero_subtitle subtitle_small payment_process_title">Confirm & pay</h3>
+              <p className="sub_text payment_process_card_text simple_steps_text">
+              Money is received by partner in less than 10 seconds!
+              </p>
+            </div>
+
+            
           </div>
         </div>
         {/* end mobile */}
@@ -227,7 +343,7 @@ const PaymentProcess = () => {
           <div className="margin_top">
             <div className="d-none d-md-flex justify-content-around">
               <div className="position-relative">
-                <img
+                <img className="tagocash_different_dimension"
                   src={tagocash_different}
                   width={"425px"}
                   height={"512px"}
@@ -238,49 +354,73 @@ const PaymentProcess = () => {
               <div className="mt-5 ms-4">
                 <div>
                   <div className="d-flex gap-2 align-items-center">
-                    <img
+                    <img id="global_black_star"
                       src={black_star}
                       alt="star"
                       width={"24px"}
                       height={"24px"}
                     />
-                    <h3 className="hero_subtitle">
+                    <img id="global_blue_star"
+                      src={blue_star}
+                      alt="star"
+                      width={"24px"}
+                      height={"24px"}
+                    />
+                    <h3 className="hero_subtitle global_title">
                       TagoCash is Globally Available
                     </h3>
                   </div>
-                  <p className="sub_text tagocash_features_text">
+                  <div id="globally_content" className="sub_text tagocash_features_text">
                     TagoCash is the cash of where you happen to be
-                  </p>
+                  </div>
+                  <p className="read_more ms-5 tagocash_features_title">Read more</p>
+                    <p className="ms-5 read_less tagocash_features_title">Read Less</p>
                 </div>
 
                 <div className="mt-5">
                   <div className="d-flex gap-2 align-items-center">
-                    <img
+                    <img id="safe_black_star"
                       src={black_star}
                       alt="star"
                       width={"24px"}
                       height={"24px"}
                     />
-                    <h3 className="hero_subtitle">TagoCash is Very Safe</h3>
+                    <img id="safe_blue_star"
+                      src={blue_star}
+                      alt="star"
+                      width={"24px"}
+                      height={"24px"}
+                    />
+                    <h3 className="hero_subtitle safe_title">TagoCash is Very Safe</h3>
                   </div>
-                  <p className="sub_text tagocash_features_text">
+                  <div id="safe_content" className="sub_text tagocash_features_text">
                     TagoCash can not be stolen.
-                  </p>
+                  </div>
+                  <p className="read_more_safe ms-5 tagocash_features_title">Read more</p>
+                    <p className="ms-5 read_less_safe tagocash_features_title">Read Less</p>
                 </div>
 
                 <div className="mt-5">
                   <div className="d-flex gap-2 align-items-center">
-                    <img
+                    <img id="privacy_black_star"
                       src={black_star}
                       alt="star"
                       width={"24px"}
                       height={"24px"}
                     />
-                    <h3 className="hero_subtitle">TagoCash is Private</h3>
+                    <img id="privacy_blue_star"
+                      src={blue_star}
+                      alt="star"
+                      width={"24px"}
+                      height={"24px"}
+                    />
+                    <h3 className="hero_subtitle privacy_title">TagoCash is Private</h3>
                   </div>
-                  <p className="sub_text tagocash_features_text">
+                  <div id="privacy_content" className="sub_text tagocash_features_text">
                     Using TagoCash protects your privacy.
-                  </p>
+                  </div>
+                  <p className="read_more_privacy ms-5 tagocash_features_title">Read more</p>
+                    <p className="ms-5 read_less_privacy tagocash_features_title">Read Less</p>
                 </div>
               </div>
             </div>
@@ -305,7 +445,7 @@ const PaymentProcess = () => {
               </h3>
             </div>
 
-            <div id="carouselExampleIndicators" class="carousel slide">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-touch="true">
               <div class="carousel-indicators">
                 <button
                   type="button"

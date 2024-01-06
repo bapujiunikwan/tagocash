@@ -1,5 +1,5 @@
 import React from "react";
-import { tick_mark } from "../assets";
+import { tick_mark } from "../../assets";
 
 function SignUp() {
   return (
@@ -64,7 +64,7 @@ function SignUp() {
               />
               <p className="footer_subtext">
                 <span className="fw-bold">1.5% fee</span> to withdraw TagoCash
-                to US Dollar cash or Euro cash{" "}
+                to US Dollar cash or Euro cash
               </p>
             </div>
             <div className="d-flex gap-2 align-items-start">
@@ -76,12 +76,12 @@ function SignUp() {
                 alt=""
               />
               <p className="footer_subtext">
-                Unlimited withdrawal of TagoCash into local currency at{" "}
+                Unlimited withdrawal of TagoCash into local currency at
                 <span className="fw-bold">3 to 5%</span> conversion rate
               </p>
             </div>
             <div className="text-center mt-4">
-              <button type="button" class="btn btn-primary rounded-5 px-4">
+              <button type="button" class="btn button_color text-white rounded-5 px-4">
                 Sign up now !
               </button>
             </div>
@@ -112,7 +112,7 @@ function SignUp() {
                 alt=""
               />
               <p className="footer_subtext">
-                FUnlimited free payments with TagoCash (send TagoCash){" "}
+                FUnlimited free payments with TagoCash (send TagoCash)
               </p>
             </div>
             <div className="d-flex gap-2 align-items-start">
@@ -138,7 +138,7 @@ function SignUp() {
               />
               <p className="footer_subtext">
                 <span className="fw-bold">1% fee</span> to withdraw TagoCash to
-                US Dollar cash or Euro cash{" "}
+                US Dollar cash or Euro cash
               </p>
             </div>
             <div className="d-flex gap-2 align-items-start">
@@ -150,12 +150,12 @@ function SignUp() {
                 alt=""
               />
               <p className="footer_subtext">
-                Unlimited withdrawal of TagoCash into local currency at{" "}
+                Unlimited withdrawal of TagoCash into local currency at
                 <span className="fw-bold">2 to 4%</span> conversion rate
               </p>
             </div>
             <div className="text-center mt-4">
-              <button type="button" class="btn btn-primary rounded-5 px-4">
+              <button type="button" class="btn button_color text-white rounded-5 px-4">
                 Sign up now !
               </button>
             </div>
@@ -164,7 +164,7 @@ function SignUp() {
       </div>
 
       {/* begin mobile */}
-      <div id="PlanscarouselIndicators" class="carousel slide d-md-none d-block">
+      <div id="PlanscarouselIndicators" class="carousel slide d-md-none d-block" data-bs-touch="true">
         <div class="carousel-indicators plans_carousel_indicators">
           <button
             type="button"

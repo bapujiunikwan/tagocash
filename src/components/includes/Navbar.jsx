@@ -29,11 +29,11 @@ const Navbar = () => {
         </li> 
       </ul>
       
-      <div className="my-2 me-3 btn btn-primary rounded-5 px-5 py-2">
+      <div className="my-2 me-3 btn button_color ms-md-0 ms-3 rounded-5 px-xl-5 py-xl-2 px-lg-3 py-lg-2 px-5 py-2">
         <a href='/signup' className='fs-6 text-decoration-none text-white fw-normal'>Sign Up</a>
       </div>
       <br />
-      <div className="border btn border-primary rounded-5 px-4 py-2">
+      <div className="border btn border-primary rounded-5 px-xl-4 py-xl-2 px-lg-3 py-lg-2 px-4 py-2">
         <a href='/tagowallet' className='fs-6 text-decoration-none fw-normal'>Open TagoWallet </a>
       </div>
       

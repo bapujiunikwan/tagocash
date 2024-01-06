@@ -2,9 +2,7 @@ export { default as tagocash_logo } from "./tagocash_logo.png";
 // begin hero section
 export { default as google_play } from "./google_play.svg";
 export { default as app_store } from "./app_store.svg";
-export { default as hero } from "./hero.png";
-export { default as hero_mobile } from "./hero_mobile.png";
-export { default as currencyanimation_image } from "./currencyanimation_image.png";
+export { default as currencyanimation } from "./currencyanimation.gif";
 export { default as fasst } from "./fasst.png";
 export { default as fasst_tagocash_logo } from "./fasst_tagocash_logo.png";
 export { default as fast } from "./fast.svg";
@@ -48,7 +46,6 @@ export { default as twitter } from "./twitter.svg";
 // end footer section
 
 // contact us page
-export { default as contacts } from "./contacts.gif";
 export { default as blue_background } from "./blue_background.png";
 
 

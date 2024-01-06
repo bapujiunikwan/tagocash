@@ -6,6 +6,10 @@
   transform: unset !important;
 }
 
+.button_color {
+  background: #0581f8 !important;
+}
+
 /* begin hero section */
 .hero_section {
   border-radius: 0px 0px 0px 120px;
@@ -22,7 +26,7 @@
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  /* line-height: normal; */
 }
 
 .hero_title_tago {
@@ -56,7 +60,11 @@
   font-size: 42px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  /* line-height: normal; */
+}
+
+.globally_title{
+  font-size: 35px;
 }
 
 .app_link{
@@ -72,7 +80,7 @@
 .fasst_title {
   font-family: DM Serif Display;
   font-size: 51px;
-  line-height: normal;
+  /* line-height: normal; */
 }
 
 .svg_background {
@@ -139,10 +147,6 @@
   margin-left: -50px;
 }
 
-/* .number_block.active {
-  background: #0581f8;
-} */
-
 .payment_process_card_text {
   line-height: 30px;
   max-width: 352px;
@@ -169,17 +173,10 @@
   color: #0581f8; 
 }
 
-/* .content {
-  visibility: hidden;
-}
-
-.active-content {
-  visibility: visible;
-} */
-
 .tagocash_features_text {
   font-family: 'Source Sans 3', sans-serif;
   padding-left: 38px;
+  width: 575px;
 }
 
 .download_app_section{
@@ -282,7 +279,7 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  /* line-height: normal; */
 }
 
 .filled_circle{
@@ -313,7 +310,7 @@
 }
 
 input[type=email]:focus, input[type=text]:focus,input[type=tel]:focus, textarea:focus, 
-textarea.form-control:focus{
+textarea.form-control:focus, input[type=checkbox]:focus{
   box-shadow: inset 0 -1px 0 transparent;
 }
 /* end news letter section */
@@ -368,7 +365,7 @@ textarea.form-control:focus{
 .contact_subtext{
   font-size: 22px;
   line-height: normal;
-  max-width: 450px;
+  max-width: 550px;
   width: 100%;
 }
 
@@ -644,6 +641,11 @@ line-height: normal;
     background: #F4F8FF;
   }
 
+  .get_more_width{
+    max-width: 200px;
+    width: 100%;
+  }
+
   .mobile_card{
     border-radius: 3px 7px 49px 7px;
   }
@@ -687,8 +689,13 @@ line-height: normal;
   }
 
   .choose_recipient_size{
-    width: 258px;
-    height: 280px;
+    width: 258px !important;
+    height: 280px !important;
+  }
+
+  #recipient_gif div, #amount_gif div, #confirm_pay_gif div{
+    width: 100% !important;
+    margin: 0 auto;
   }
 
   .numbers_mobile{
@@ -709,6 +716,15 @@ line-height: normal;
     line-height: normal;
   }
   
+  .payment_process_card{
+    background: #F2F9FF;
+  }
+
+  .fs-5.active{
+    background: #0581F8;
+    border: 0 !important;
+  }
+
   .carousel-indicators{
     top: 180px;
   }
@@ -718,12 +734,12 @@ line-height: normal;
   }
 
   .plans_carousel_indicators{
-    top: 575px;
+    top: 580px;
   }
 
   .carousel-indicators [data-bs-target] {
-    height: 10px !important;
-    width: 10px !important;
+    height: 8px !important;
+    width: 8px !important;
     border-radius: 50% !important;
   }
   /* newsletter section */
@@ -743,6 +759,11 @@ line-height: normal;
     bottom: 10%;
     width: 95% !important;
     margin-left: 2%;
+    background: #FFF;
+    padding: 5px 10px;
+    border-radius: 100px;
+
+    
   }
   /* blogs */
   .hero_title{
@@ -830,6 +851,13 @@ line-height: normal;
     align-items: center;
   }
 
+  .blue_background{
+    max-width: 430px;
+    width: 100%;
+    max-height: 338px;
+    height: 100%;
+  }
+
   .contacts_size{
     width: 70px;
     height: 70px;
@@ -842,11 +870,6 @@ line-height: normal;
   .contact_subtext{
     font-size: 13px;
   }
-
-  .submit_btn{
-    display: flex;
-    justify-content: center;
-  }
     
   /* subscribe page */
   .post_box_size{
@@ -855,9 +878,8 @@ line-height: normal;
   }
 
   .subscribe_block {
-    border-radius: 100px;
-    background: #FFF;
-    padding: 5px 10px;
+    background:none;
+    padding: 0;
     width: 100%;
   }
 
@@ -883,6 +905,11 @@ line-height: normal;
 
   .form_section {
     flex: 1;
+  }
+
+  .cards{
+    max-width: 225px;
+    width: 100%;
   }
 }
 
@@ -913,4 +940,82 @@ line-height: normal;
   .featured_block_gap{
     gap: 25px;
   }
+/* home */
+  .currencyanimation_image_size{
+    width: 575px;
+  }
+  .fasst_mobile{
+    width: 350px;
+    height: 210px;
+  }
+
+  .tagocash_different_dimension{
+    width: 375px;
+    height: 450px;
+    }
+
+  .tagocash_features_text{
+    width: 355px;
+  }
+
+  #recipient_gif div, #amount_gif div, #confirm_pay_gif div{
+    width: 400px !important;
+  }
+
+  .fasst_tab{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero_title{
+    font-size: 41px;
+    line-height: 40px;
+  }
+
+  .hero_subtitle{
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .fasst_tagocash_logo{
+    width: 175px;
+    height: 30px;
+  }
+
+  .fasst_title{
+    font-size: 38px;
+  }
+
+  .fasst_logo_size{
+    width: 258px;
+    height: 52px;
+  }
+
+  .fasst_feature_description{
+    font-size: 20px;
+  }
+
+  .get_more_title{
+    font-size: 30px;
+  }
+
+  .get_more_logo{
+    width: 170px;
+    height: 35px;
+  }
+
+  .get_more_feature_padding{
+    padding: 5px 14px 0px;
+  }
+
+  .subscribe_block{
+    width: 100%;
+    padding: 0;
+  }
+
+  .contact_subtext{
+    font-size: 16px;
+    line-height: 25px;
+  }
+  
 }
