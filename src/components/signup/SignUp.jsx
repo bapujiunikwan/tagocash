@@ -164,11 +164,11 @@ function SignUp() {
       </div>
 
       {/* begin mobile */}
-      <div id="PlanscarouselIndicators" class="carousel slide d-md-none d-block" data-bs-touch="true" data-bs-ride="carousel" data-bs-interval="90000">
+      <div id="planscarouselIndicators" class="carousel slide d-md-none d-block" data-bs-touch="true" data-bs-ride="carousel" data-bs-interval="90000">
         <div class="carousel-indicators plans_carousel_indicators">
           <button
             type="button"
-            data-bs-target="#PlanscarouselIndicators"
+            data-bs-target="#planscarouselIndicators"
             data-bs-slide-to="0"
             class="active bg-primary me-3"
             aria-current="true"
@@ -177,7 +177,7 @@ function SignUp() {
           <button
             className="bg-primary me-3"
             type="button"
-            data-bs-target="#PlanscarouselIndicators"
+            data-bs-target="#planscarouselIndicators"
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>

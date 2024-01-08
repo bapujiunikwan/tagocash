@@ -1,7 +1,17 @@
 import React from 'react'
 import { subscribe_animation,blue_background } from '../assets'
+import Lottie from "react-lottie";
+import walletLottie from "../assets/lottieFiles/wallet.json"
 
 const TagoWallet = () => {
+  const walletOptions = {
+    loop: true,
+    autoplay: true, 
+    animationData: walletLottie,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
   return (
     <div className="newsletter_page position-relative">
       <div className='d-block d-md-none blue_background'>
@@ -13,8 +23,12 @@ const TagoWallet = () => {
       </a>
       <div className='d-md-flex py-md-5'>
         <div className='img_block margin_top pb-md-5'>
-            <div>
-                <img src={subscribe_animation} width={"425px"} height={"375px"} alt="" className='rounded post_box_size d-md-block d-none' />
+            <div className='d-md-block d-none'>
+              
+                <Lottie options={walletOptions}
+              height={375}
+              width={425}
+              />
             </div>
         </div>
         <div className="subscribe_block margin_top pb-5">

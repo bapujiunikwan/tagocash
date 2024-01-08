@@ -693,9 +693,13 @@ line-height: normal;
     height: 280px !important;
   }
 
+  #recipient_gif svg, #amount_gif svg, #confirm_pay_gif svg{
+    width: 400px !important;
+  }
+
   #recipient_gif div, #amount_gif div, #confirm_pay_gif div{
-    width: 100% !important;
-    margin: 0 auto;
+    width: 360px !important;
+    margin: 0 auto !important;
   }
 
   .numbers_mobile{
@@ -807,7 +811,12 @@ line-height: normal;
   .footer_links_block {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .legal_block_mobile{
+    margin-left: -55px;
   }
 
   .link_mobile, .footer_text{
@@ -872,11 +881,7 @@ line-height: normal;
   }
     
   /* subscribe page */
-  .post_box_size{
-    width: 268px;
-    height: 260px;
-  }
-
+  
   .subscribe_block {
     background:none;
     padding: 0;

@@ -17,8 +17,8 @@ const Blogs = () => {
           </p>
         </div>
 
-        <div className="featured_article mb-4 d-md-none d-block">
-          <p className="blog_type_text featured_article_text p-2">
+        <div className="mb-2 d-md-none d-block text-center">
+          <p className="blog_type_text featured_article_text fs-2 p-2">
             Featured Article
           </p>
         </div>

@@ -80,19 +80,19 @@ const BlogSection = () => {
                     data-bs-slide-to="0"
                     class="active bg-primary me-3"
                     aria-current="true"
-                    aria-label="Slide 1"
+                    aria-label="Slide blog 1"
                   ></button>
                   <button className="bg-primary me-3"
                     type="button"
                     data-bs-target="#BlogcarouselIndicators"
                     data-bs-slide-to="1"
-                    aria-label="Slide 2"
+                    aria-label="Slide blog 2"
                   ></button>
                   <button className="bg-primary"
                     type="button"
                     data-bs-target="#BlogcarouselIndicators"
                     data-bs-slide-to="2"
-                    aria-label="Slide 3"
+                    aria-label="Slide blog 3"
                   ></button>
                 </div>
                 <div class="carousel-inner mt-3">
