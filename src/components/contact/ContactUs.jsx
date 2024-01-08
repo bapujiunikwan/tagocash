@@ -23,7 +23,8 @@ const ContactUs = () => {
       <p className='d-block d-md-none pt-md-4 pt-3'>&lt; Back</p>
       </a>
         <div className='left_sided_contact margin_top pb-md-5 contact_block'>
-            <div className='d-none d-md-block'>
+            <div id='contact_lottie'
+             className='d-none d-md-block'>
                 <Lottie options={contactOptions}
               height={339}
               width={373}

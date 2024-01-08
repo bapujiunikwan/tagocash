@@ -11,10 +11,12 @@ import BlogContent from "./components/blog/BlogContent";
 import FaqPage from "./pages/FaqPage";
 import SignUpPage from "./pages/SignUpPage";
 import PageNotFound from "./pages/PageNotFound";
+import { CookiesProvider } from 'react-cookie';
 
 function App() {
   return (
-    <Router>
+    <CookiesProvider defaultSetOptions={{ path: '/' }}>
+      <Router>
       <Navbar/>
       <Routes>
         <Route path={"/"} element={<Home />}/>
@@ -25,10 +27,11 @@ function App() {
         <Route path={"/faq"} element={<FaqPage />}/>
         <Route path={"/signup"} element={<SignUpPage />}/>
         <Route path={"/*"} element={<PageNotFound />}/>
-
       </Routes>
       <Footer />
     </Router>
+    </CookiesProvider>
+    
   )
 }
 

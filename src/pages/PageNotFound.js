@@ -13,14 +13,14 @@ const PageNotFound = () => {
       };
   return (
     <div className='container'>
-        <div className='d-flex flex-column align-items-center py-xl-5 py-3'>
-            <div id='pnf_lottie' className='py-md-3'>
+        <div className='d-flex flex-column align-items-center py-5'>
+            <div id='pnf_lottie'>
             <Lottie options={pnfOptions}
-              height={455}
+              height={400}
               width={747}
               />
             </div>
-            <h3 className='hero_title my-xl-4 my-2'>Page Not Found</h3>
+            <h3 className='hero_title mb-2'>Page Not Found</h3>
         </div>
       
     </div>

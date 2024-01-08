@@ -152,7 +152,7 @@ const PaymentProcess = () => {
 
     // tagocash is private
     $('.read_more_privacy').on('click', function () {
-      privacyContent.append('You do not need to share your address or bank or credit/debit card details with anyone.When you want to give TagoCash to someone, you only need their mobile number and email address.');
+      privacyContent.append(' You do not need to share your address or bank or credit/debit card details with anyone. When you want to give TagoCash to someone, you only need their mobile number and email address.');
       $('.read_more_privacy, #privacy_black_star').hide();
       $('.read_less_privacy, #privacy_blue_star').show();
       $('.privacy_title').addClass('tagocash_features_title');

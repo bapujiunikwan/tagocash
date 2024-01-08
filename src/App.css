@@ -2,6 +2,10 @@
   box-shadow: none !important;
 }
 
+#recipient_gif, #amount_gif, #confirm_pay_gif, #pnf_lottie,#contact_lottie{
+pointer-events: none !important;
+}
+
 #recipient_gif svg, #amount_gif svg, #confirm_pay_gif svg{
   transform: unset !important;
 }
@@ -352,6 +356,38 @@ textarea.form-control:focus, input[type=checkbox]:focus{
  color: rgba(0, 0, 0, 0.40);;
 }
 /* end footer */
+
+/*begin cookies */
+.cookie_bg{
+  background: #EFF5FF;
+}
+
+.cookie_title{
+  color: #000;
+font-family: DM Serif Display;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.cookie_subtext{
+  color: #000;
+font-family: Source Sans 3;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 116.667% */
+}
+
+/* #rcc-confirm-button{
+  display: none !important;
+} */
+/* end cookies */
 
 /* contact us page */
 .contact_section{
@@ -901,6 +937,11 @@ line-height: normal;
 
   .membership_title{
     font-size: 26px;
+  }
+  /* cookie */
+  .cookie_title{
+    font-size: 20px;
+    line-height: 29px;
   }
 }
 
