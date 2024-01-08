@@ -164,7 +164,7 @@ function SignUp() {
       </div>
 
       {/* begin mobile */}
-      <div id="PlanscarouselIndicators" class="carousel slide d-md-none d-block" data-bs-touch="true">
+      <div id="PlanscarouselIndicators" class="carousel slide d-md-none d-block" data-bs-touch="true" data-bs-ride="carousel" data-bs-interval="90000">
         <div class="carousel-indicators plans_carousel_indicators">
           <button
             type="button"
