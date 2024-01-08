@@ -72,7 +72,7 @@ const BlogSection = () => {
             </div>
             {/* begin mobile */}
                 {/* data-bs-touch="true" data-bs-ride="carousel" data-bs-interval="90000" */}
-            <div id="blogCarouselIndicators" class="carousel slide d-md-none d-block" >
+            <div id="blogCarouselIndicators" class="carousel slide d-md-none d-block" data-ride="carousel">
                 <div class="carousel-indicators blog_carousel_indicators">
                   <button
                     type="button"

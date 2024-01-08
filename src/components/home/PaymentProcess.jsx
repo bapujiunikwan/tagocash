@@ -445,7 +445,7 @@ const PaymentProcess = () => {
               </h3>
             </div>
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-touch="true" data-bs-ride="carousel" data-bs-interval="90000">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-touch="true" data-ride="carousel">
               <div class="carousel-indicators">
                 <button
                   type="button"
