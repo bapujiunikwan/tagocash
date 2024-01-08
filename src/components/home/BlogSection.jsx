@@ -72,7 +72,7 @@ const BlogSection = () => {
             </div>
             {/* begin mobile */}
                 {/* data-bs-touch="true" data-bs-ride="carousel" data-bs-interval="90000" */}
-            <div id="blogCarouselIndicators" class="carousel slide d-md-none d-block" data-ride="carousel">
+            <div id="blogCarouselIndicators" class="carousel slide d-md-none d-block">
                 <div class="carousel-indicators blog_carousel_indicators">
                   <button
                     type="button"
@@ -159,6 +159,14 @@ const BlogSection = () => {
                     </div>
                 </div>
                   </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#blogCarouselIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#blogCarouselIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
                 </div>
               </div>
             {/* end mobile */}
