@@ -32,7 +32,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="footer_links_block">
+            <div className="footer_links_block text-center text-md-start">
                 <div className="margin_top">
                     <h3 className="fasst_feature_description fw-semibold">Company</h3>
                     <div className="d-flex flex-column">
@@ -45,7 +45,7 @@ const Footer = () => {
 
                 </div>
                 
-                <div className="margin_top legal_block_mobile">
+                <div className="margin_top">
                     <h3 className="fasst_feature_description fw-semibold">Legal</h3>
                     <div className="d-flex flex-column">
                         <a href="/contact" className="footer_page_link footer_subtext mt-md-1">Contact Us</a>

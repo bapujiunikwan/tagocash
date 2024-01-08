@@ -13,9 +13,18 @@ import Lottie from "react-lottie";
 import recipientLottie from "../../assets/lottieFiles/recipient.json"
 import amountLottie from "../../assets/lottieFiles/amount.json"
 import confirmPayLottie from "../../assets/lottieFiles/confirm_pay.json"
+import Slider from "react-slick";
+
 
 
 const PaymentProcess = () => {
+  var paymentSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
 
   const recipientOptions = {
     loop: true,
@@ -430,8 +439,8 @@ const PaymentProcess = () => {
 
       {/* mobile */}
       <div className="d-block d-md-none ps-3">
-        <div className="d-flex justify-content-between">
-          <div>
+        <div className="d-flex justify-content-between w-100">
+          <div style={{width:"54%"}}>
             <div className="d-md-flex gap-2 justify-content-center align-items-center mt-2">
               <img
                 className="fasst_tagocash_logo"
@@ -444,8 +453,8 @@ const PaymentProcess = () => {
                 is the same as Cash, but better!
               </h3>
             </div>
-
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-touch="true" data-ride="carousel">
+          {/* begin mobile carousel */}
+            {/* <div id="carouselExampleIndicators" class="carousel slide" data-bs-touch="true" data-ride="carousel">
               <div class="carousel-indicators">
                 <button
                   type="button"
@@ -525,7 +534,72 @@ const PaymentProcess = () => {
                   </div>
                 </div>
               </div>
+            </div> */}
+            <div className="d-md-none d-block mt-4">
+              <Slider {...paymentSettings}>
+                <div>
+                  <div class="mb-2">
+                    <div className="feature_cards p-3">
+                      <div className="d-flex gap-2">
+                        <img
+                          src={blue_star}
+                          width={"16px"}
+                          height={"17px"}
+                          alt=""
+                        />
+                        <h3 className="feature_card_title">Globally Available</h3>
+                      </div>
+                      <p className="blog_type_text text-dark ps-4">
+                        Instantly exchangeable for local consumption. Spend it in
+                        dollars, Euro, Pesos, or any of 65+ different currencies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                <div class="mb-2">
+                    <div className="feature_cards p-3">
+                      <div className="d-flex gap-2">
+                        <img
+                          src={blue_star}
+                          width={"16px"}
+                          height={"17px"}
+                          alt=""
+                        />
+                        <h3 className="feature_card_title">Very Safe</h3>
+                      </div>
+                      <p className="blog_type_text text-dark ps-4">
+                        Only available to you and requires biometrics to access.
+                        Your TagoCash is not stored or controlled by the Tago
+                        Platform.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                <div class="mb-2">
+                    <div className="feature_cards p-3">
+                      <div className="d-flex gap-2">
+                        <img
+                          src={blue_star}
+                          width={"16px"}
+                          height={"17px"}
+                          alt=""
+                        />
+                        <h3 className="feature_card_title">Tago is private</h3>
+                      </div>
+                      <p className="blog_type_text text-dark ps-4">
+                        No need to share your bank or card details. To give
+                        TagoCash to someone, you only need their mobile number and
+                        email address.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </Slider>
             </div>
+          {/* end mobile carousel */}
+
           </div>
 
           <div>
