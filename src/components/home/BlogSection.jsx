@@ -70,13 +70,13 @@ const BlogSection = () => {
                     </div>
                 </div>
             </div>
-
             {/* begin mobile */}
-            <div id="BlogcarouselIndicators" class="carousel slide d-md-none d-block" data-bs-touch="true" data-bs-ride="carousel" data-bs-interval="90000">
+                {/* data-bs-touch="true" data-bs-ride="carousel" data-bs-interval="90000" */}
+            <div id="blogCarouselIndicators" class="carousel slide d-md-none d-block" >
                 <div class="carousel-indicators blog_carousel_indicators">
                   <button
                     type="button"
-                    data-bs-target="#BlogcarouselIndicators"
+                    data-bs-target="#blogCarouselIndicators"
                     data-bs-slide-to="0"
                     class="active bg-primary me-3"
                     aria-current="true"
@@ -84,13 +84,13 @@ const BlogSection = () => {
                   ></button>
                   <button className="bg-primary me-3"
                     type="button"
-                    data-bs-target="#BlogcarouselIndicators"
+                    data-bs-target="#blogCarouselIndicators"
                     data-bs-slide-to="1"
                     aria-label="Slide blog 2"
                   ></button>
                   <button className="bg-primary"
                     type="button"
-                    data-bs-target="#BlogcarouselIndicators"
+                    data-bs-target="#blogCarouselIndicators"
                     data-bs-slide-to="2"
                     aria-label="Slide blog 3"
                   ></button>
