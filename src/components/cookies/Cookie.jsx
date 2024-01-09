@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
-// import CookieConsent, { Cookies } from "react-cookie-consent";
 import { useCookies } from "react-cookie";
 
 const Cookie = ({setButton, showButton}) => {
   const [cookies, setCookie] = useCookies(["tagocash"]);
 
   const setCookieHandler = () => {
-    setCookie("tagocash", "tagocashCookie", { path: "/", maxAge: "10" }); //
+    setCookie("tagocash", "tagocashCookie", { path: "/", maxAge: "10" }); // set max age accordingly to destroy the cookie
     setButton(false);
   };
 

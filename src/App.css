@@ -968,6 +968,11 @@ line-height: normal;
     max-width: 225px;
     width: 100%;
   }
+
+  .fasst_tab{
+    flex-wrap: wrap !important;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1400px) {
@@ -1020,7 +1025,7 @@ line-height: normal;
   }
 
   .fasst_tab{
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
   }
 

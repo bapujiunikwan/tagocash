@@ -206,15 +206,15 @@ const PaymentProcess = () => {
             Complete your payment in 3 simple steps:
           </p>
         </div>
-        <div className="d-flex justify-content-around">
+        <div className="d-flex justify-content-around gap-lg-0 gap-5">
           <div className="d-md-block d-none ps-5 mt-5">
             <div className="d-flex active" id="recipient">
-              <div id="button1" className="number_block mt-4">
+              <div id="button1" className="number_block mt-4 pointer">
                 <p className="fw-semibold fs-5">1</p>
               </div>
 
               <div className="payment_process_card">
-                <h3 id="recipient_title" className="hero_subtitle">
+                <h3 id="recipient_title" className="hero_subtitle pointer">
                   Choose Recipient
                 </h3>
                 <p
@@ -227,12 +227,12 @@ const PaymentProcess = () => {
             </div>
 
             <div className="d-flex mt-4" id="amount">
-              <div id="button2" className="number_block mt-4">
+              <div id="button2" className="number_block mt-4 pointer">
                 <p className="fw-semibold fs-5">2</p>
               </div>
 
               <div className="payment_process_card">
-                <h3 id="amount_title" className="hero_subtitle">
+                <h3 id="amount_title" className="hero_subtitle pointer">
                   Enter Amount
                 </h3>
                 <p
@@ -245,12 +245,12 @@ const PaymentProcess = () => {
             </div>
 
             <div className="d-flex mt-4" id="confirm_pay">
-              <div id="button3" className="number_block mt-4">
+              <div id="button3" className="number_block mt-4 pointer">
                 <p className="fw-semibold fs-5">3</p>
               </div>
 
               <div className="payment_process_card">
-                <h3 id="confirm_pay_title" className="hero_subtitle">
+                <h3 id="confirm_pay_title" className="hero_subtitle pointer">
                   Confirm & pay
                 </h3>
                 <p
@@ -290,18 +290,18 @@ const PaymentProcess = () => {
         {/* begin mobile */}
         <div className="d-block d-md-none">
           <div className="numbers_mobile">
-            <div className="d-flex justify-content-around mt-4">
-              <div id="number_one">
+            <div className="d-flex justify-content-around">
+              <div id="number_one" className="pointer">
                 <p id="mobile_btn1" className="border border-dark rounded-4 px-4 fw-semibold fs-5 active">
                   1
                 </p>
               </div>
-              <div id="number_two">
+              <div id="number_two" className="pointer">
                 <p id="mobile_btn2" className="border border-dark rounded-4 px-4 fw-semibold fs-5">
                   2
                 </p>
               </div>
-              <div id="number_three">
+              <div id="number_three" className="pointer">
                 <p id="mobile_btn3" className="border border-dark rounded-4 px-4 fw-semibold fs-5">
                   3
                 </p>
@@ -310,21 +310,21 @@ const PaymentProcess = () => {
           </div>
           <div className="payment_process_card text-center">
             <div id="recipient_block">
-              <h3 className="hero_subtitle subtitle_small payment_process_title">Choose Recipient</h3>
+              <h3 className="hero_subtitle subtitle_small payment_process_title pointer">Choose Recipient</h3>
               <p className="sub_text payment_process_card_text simple_steps_text">
                 Find your partner on tagocash app via his phone or email.
               </p>
             </div>
 
             <div id="amount_block">
-              <h3 className="hero_subtitle subtitle_small payment_process_title">Enter Amount</h3>
+              <h3 className="hero_subtitle subtitle_small payment_process_title pointer">Enter Amount</h3>
               <p className="sub_text payment_process_card_text simple_steps_text">
               Enter the amount to send from your wallet balance
               </p>
             </div>
             
             <div id="pay_block">
-              <h3 className="hero_subtitle subtitle_small payment_process_title">Confirm & pay</h3>
+              <h3 className="hero_subtitle subtitle_small payment_process_title pointer">Confirm & pay</h3>
               <p className="sub_text payment_process_card_text simple_steps_text">
               Money is received by partner in less than 10 seconds!
               </p>
@@ -382,8 +382,8 @@ const PaymentProcess = () => {
                   <div id="globally_content" className="sub_text tagocash_features_text">
                     TagoCash is the cash of where you happen to be
                   </div>
-                  <p className="read_more ms-5 tagocash_features_title">Read more</p>
-                    <p className="ms-5 read_less tagocash_features_title">Read Less</p>
+                  <p className="read_more tagocash_features_text tagocash_features_title pointer">Read more</p>
+                    <p className="tagocash_features_text read_less tagocash_features_title pointer">Read Less</p>
                 </div>
 
                 <div className="mt-5">
@@ -405,8 +405,8 @@ const PaymentProcess = () => {
                   <div id="safe_content" className="sub_text tagocash_features_text">
                     TagoCash can not be stolen.
                   </div>
-                  <p className="read_more_safe ms-5 tagocash_features_title">Read more</p>
-                    <p className="ms-5 read_less_safe tagocash_features_title">Read Less</p>
+                  <p className="read_more_safe tagocash_features_title tagocash_features_text pointer">Read more</p>
+                    <p className="read_less_safe tagocash_features_title tagocash_features_text pointer">Read Less</p>
                 </div>
 
                 <div className="mt-5">
@@ -428,8 +428,8 @@ const PaymentProcess = () => {
                   <div id="privacy_content" className="sub_text tagocash_features_text">
                     Using TagoCash protects your privacy.
                   </div>
-                  <p className="read_more_privacy ms-5 tagocash_features_title">Read more</p>
-                    <p className="ms-5 read_less_privacy tagocash_features_title">Read Less</p>
+                  <p className="read_more_privacy tagocash_features_title tagocash_features_text pointer">Read more</p>
+                    <p className="read_less_privacy tagocash_features_title tagocash_features_text pointer">Read Less</p>
                 </div>
               </div>
             </div>
