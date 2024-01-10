@@ -199,7 +199,7 @@ const PaymentProcess = () => {
       <div className="container">
         <div className="text-center text-md-start">
           <h3 className="sub_title padding_top get_more_title">
-            Paying someone, made easier!
+            Paying someone is made easier!
           </h3>
           <p className="sub_text simple_steps_text">
             With TagoCash, paying someone is as easy as paying with cash. <br />
@@ -221,7 +221,7 @@ const PaymentProcess = () => {
                   id="recipient_subtext"
                   className="sub_text payment_process_card_text"
                 >
-                  Find your partner on tagocash app via his phone or email.
+                  Find your partner on TagoCash app via their phone or email.
                 </p>
               </div>
             </div>
@@ -251,13 +251,13 @@ const PaymentProcess = () => {
 
               <div className="payment_process_card">
                 <h3 id="confirm_pay_title" className="hero_subtitle pointer">
-                  Confirm & pay
+                  Confirm & Pay
                 </h3>
                 <p
                   id="pay_subtext"
                   className="sub_text payment_process_card_text"
                 >
-                  Money is received by partner in less than 10 seconds!
+                  Money is received by your partner in less than 10 seconds!
                 </p>
               </div>
             </div>
@@ -312,7 +312,7 @@ const PaymentProcess = () => {
             <div id="recipient_block">
               <h3 className="hero_subtitle subtitle_small payment_process_title pointer">Choose Recipient</h3>
               <p className="sub_text payment_process_card_text simple_steps_text">
-                Find your partner on tagocash app via his phone or email.
+                Find your partner on TagoCash app via their phone or email.
               </p>
             </div>
 
@@ -324,9 +324,9 @@ const PaymentProcess = () => {
             </div>
             
             <div id="pay_block">
-              <h3 className="hero_subtitle subtitle_small payment_process_title pointer">Confirm & pay</h3>
+              <h3 className="hero_subtitle subtitle_small payment_process_title pointer">Confirm & Pay</h3>
               <p className="sub_text payment_process_card_text simple_steps_text">
-              Money is received by partner in less than 10 seconds!
+              Money is received by your partner in less than 10 seconds!
               </p>
             </div>
 
@@ -376,7 +376,7 @@ const PaymentProcess = () => {
                       height={"24px"}
                     />
                     <h3 className="hero_subtitle global_title">
-                      TagoCash is Globally Available
+                      TagoCash is globally available
                     </h3>
                   </div>
                   <div id="globally_content" className="sub_text tagocash_features_text">
@@ -400,7 +400,7 @@ const PaymentProcess = () => {
                       width={"24px"}
                       height={"24px"}
                     />
-                    <h3 className="hero_subtitle safe_title">TagoCash is Very Safe</h3>
+                    <h3 className="hero_subtitle safe_title">TagoCash is very safe</h3>
                   </div>
                   <div id="safe_content" className="sub_text tagocash_features_text">
                     TagoCash can not be stolen.
@@ -423,7 +423,7 @@ const PaymentProcess = () => {
                       width={"24px"}
                       height={"24px"}
                     />
-                    <h3 className="hero_subtitle privacy_title">TagoCash is Private</h3>
+                    <h3 className="hero_subtitle privacy_title">TagoCash is private</h3>
                   </div>
                   <div id="privacy_content" className="sub_text tagocash_features_text">
                     Using TagoCash protects your privacy.
@@ -547,7 +547,7 @@ const PaymentProcess = () => {
                           height={"17px"}
                           alt=""
                         />
-                        <h3 className="feature_card_title">Globally Available</h3>
+                        <h3 className="feature_card_title">Globally available</h3>
                       </div>
                       <p className="blog_type_text text-dark ps-4">
                         Instantly exchangeable for local consumption. Spend it in
@@ -566,7 +566,7 @@ const PaymentProcess = () => {
                           height={"17px"}
                           alt=""
                         />
-                        <h3 className="feature_card_title">Very Safe</h3>
+                        <h3 className="feature_card_title">Very safe</h3>
                       </div>
                       <p className="blog_type_text text-dark ps-4">
                         Only available to you and requires biometrics to access.

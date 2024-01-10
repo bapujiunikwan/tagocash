@@ -78,7 +78,7 @@ const FasstSection = () => {
                     <h3 className="hero_subtitle footer_title">Affordable</h3>
                   </div>
                   <p className="fasst_feature_description fasst_affordable_text_width pt-2">
-                    0$ to 1% transfer fee available
+                    $0 to 1% transfer fee available
                   </p>
                 </div>
               </div>

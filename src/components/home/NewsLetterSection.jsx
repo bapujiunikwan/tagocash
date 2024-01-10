@@ -12,7 +12,7 @@ const NewsLetterSection = () => {
           
           <div className='mt-5 d-none d-md-block'>
               <div>
-                  <h3 className='sub_title first_to_know_color'>Be the First to know!</h3>
+                  <h3 className='sub_title first_to_know_color'>Be the first to know!</h3>
                   <p className='sub_text first_to_know_color'>Subscribe to our newsletter to stay up to data </p>
               </div>
               <div className='d-flex gap-5 subscribe_block mt-4 subscribe_field_tab'>
@@ -29,7 +29,7 @@ const NewsLetterSection = () => {
           </div>
           <div className='newsletter_content_mobile'>
               <div className='px-3'>
-                  <h3 className='sub_title first_to_know_color footer_title'>Be the First to know!</h3>
+                  <h3 className='sub_title first_to_know_color footer_title'>Be the first to know!</h3>
                   <p className='sub_text first_to_know_color footer_subtext'>Subscribe to our newsletter to stay up to data </p>
               </div>
               

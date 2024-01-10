@@ -1,6 +1,8 @@
 import React from "react";
 import { tick_mark, hero_tick } from "../../assets";
 import Slider from "react-slick";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 
 function SignUp() {
   var plansSettings = {
@@ -115,7 +117,7 @@ function SignUp() {
               <div className="plan_duration my-4">
                 <p className="download_app_subtext fs-6 py-1">Annual Plan</p>
               </div>
-              <div className="pb-5 mb-3">
+              <div className="pb-5 pt-3">
                 <h4 className="text-white cookie_title">Coming in July 2024</h4>
               </div>
             </div>
@@ -219,9 +221,21 @@ function SignUp() {
         <div class="mb-4">
           <input type="email" class="form-control rounded-5 bg-secondary bg-opacity-10 px-3 py-2 border-0" id="emailFormControlInput" placeholder="Enter Email" />
         </div>
-        <div class="mb-4">
+        {/* <div class="mb-4">
           <input type="tel" class="form-control rounded-5 bg-secondary bg-opacity-10 px-3 py-2 border-0" id="phoneFormControlInput" placeholder="Enter Phone number" />
-        </div>
+        </div> */}
+        <PhoneInput className="mb-4 wallet_input_bg"
+            country={"in"}
+            // value={phoneNumber}
+            // onChange={validateNumber}
+            enableSearch={true}
+            countryCodeEditable={false}
+            placeholder={"Enter Phone Number"}
+            inputProps={{
+              id: "phone_number",
+              autoFocus: true
+            }}
+          />
         <div className='mb-5'>
           <button type="button" class="btn button_color text-white rounded-5 px-4 py-2 mb-md-5">Pre-Register</button>
         </div>
@@ -334,7 +348,7 @@ function SignUp() {
               <div className="plan_duration my-4">
                 <p className="download_app_subtext fs-6 py-1">Annual Plan</p>
               </div>
-              <div className="pb-5 mb-3">
+              <div className="pb-5 pt-3">
                 <h4 className="text-white cookie_title">Coming in July 2024</h4>
               </div>
             </div>

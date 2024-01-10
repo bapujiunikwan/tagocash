@@ -619,6 +619,48 @@ line-height: 21px;
   }
 /* end signup page */
 
+/* begin phone number input field css  */
+.react-tel-input .flag-dropdown {
+  background-color: transparent!important;
+  border: none!important;
+  border-radius: unset!important;
+}
+
+.react-tel-input .flag-dropdown {
+  background-color: transparent!important;
+  border: none!important;
+  border-radius: unset!important;
+}
+
+.react-tel-input .selected-flag {
+  padding: 0 0 0 15px!important;
+  background: transparent!important;
+}
+
+.react-tel-input .form-control {
+  padding: 12px 50px!important;
+  font-size: 16px!important;
+  color: #000000!important;
+  font-weight: 400!important;
+  width: 100%!important;
+  border-radius: 24px!important;
+  border: 2px solid transparent!important;
+  line-height: 1.4375em!important;
+  height: auto!important;
+}
+
+.react-tel-input .country-list {
+  text-align: left;
+  width: 260px!important;
+  margin: 10px 0 10px 15px!important;
+  border-radius: 4px !important;
+}
+
+.wallet_input_bg .form-control{
+  background-color: #6c757d1a !important;
+}
+/* end phone number input field css  */
+
 /* mobile version */
 @media (min-width: 360px) and (max-width: 767.95px) {
   /* home */
@@ -707,11 +749,11 @@ line-height: 21px;
   }
 
   .bank_accout_card{
-    border-radius: 3px 7px 7px 49px;
+    border-radius: 3px 49px 7px 7px;
   }
 
   .store_card{
-    border-radius: 3px 49px 7px 7px;
+    border-radius: 3px 7px 7px 49px;
   }
 
   .atm_card{
@@ -961,8 +1003,8 @@ line-height: 21px;
   }
   /* cookie */
   .cookie_title{
-    font-size: 20px;
-    line-height: 29px;
+    font-size: 19px;
+    line-height: 26px;
   }
 
   .modal_title{

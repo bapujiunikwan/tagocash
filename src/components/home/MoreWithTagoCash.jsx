@@ -131,6 +131,25 @@ const MoreWithTagoCash = () => {
           </div>
 
           <div className="get_more_width">
+            <div className="d-flex align-items-center store_card cards_bg p-2">
+            <div>
+                <img
+                  src={money_gram}
+                  width={"50px"}
+                  height={"40px"}
+                  alt=""
+                />
+              </div>
+              <div>
+                <p className="footer_subtext text-end me-2">
+                Withdraw or deposit currency from 21,000+ store
+                </p>
+              </div>
+              
+            </div>
+          </div>
+
+          {/* <div className="get_more_width">
             <div className="d-flex align-items-center bank_accout_card cards_bg p-2">
               <div>
                 <img src={bank} width={"45px"} height={"45px"} alt="" />
@@ -141,11 +160,11 @@ const MoreWithTagoCash = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="d-flex gap-2 mt-2">
-          <div className="get_more_width">
+          {/* <div className="get_more_width">
             <div className="d-flex align-items-center store_card cards_bg p-2">
               <div>
                 <p className="footer_subtext text-end me-2">
@@ -159,6 +178,18 @@ const MoreWithTagoCash = () => {
                   height={"40px"}
                   alt=""
                 />
+              </div>
+            </div>
+          </div> */}
+          <div className="get_more_width">
+            <div className="d-flex align-items-center bank_accout_card cards_bg p-2">           
+              <div>
+                <p className="footer_subtext ms-1">
+                  Instant transfer to and from linked bank accounts
+                </p>
+              </div>
+              <div>
+                <img src={bank} width={"45px"} height={"45px"} alt="" />
               </div>
             </div>
           </div>

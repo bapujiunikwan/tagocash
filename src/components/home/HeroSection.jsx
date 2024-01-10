@@ -1,5 +1,5 @@
 import React from "react";
-import {app_store, google_play,app_store_cta, google_play_cta, currencyanimation } from "../../assets";
+import {app_store, google_play,app_store_cta, google_play_cta, app_store_svg, google_play_svg, currencyanimation } from "../../assets";
 import Lottie from "react-lottie";
 import heroLottie from "../../assets/lottieFiles/hero.json"
 
@@ -14,13 +14,13 @@ const HeroSection = () => {
   };
   return (
       <div className="container">
-        <div className="d-flex justify-content-center gap-3 margin_top">
+        <div className="d-flex justify-content-lg-between justify-content-center margin_top">
           <div className="mt-5">
             <h1 className="hero_title text-center text-md-start">
               Everywhere you go, <span className="hero_title_tago">Tago!</span>
             </h1>
             <h3 className="hero_subtitle subtitle_small mt-3 text-center text-md-start">
-             TagoCash, is your cash stored in digital wallet<br />
+             TagoCash is your cash stored in digital wallet<br />
               <span className="sub_text hero_subtext">
               Take it with you where ever you go!
               </span>
@@ -48,7 +48,7 @@ const HeroSection = () => {
                         <p className="footer_subtext text-white my-2 p-1">App Store</p>
                         <img src={app_store} width={"23px"} height={"23px"}  alt="" />
                       </div> */}
-                      <img src={google_play_cta} width={"166px"} height={"47px"}  alt="" />
+                      <img src={google_play_svg} width={"166px"} height={"47px"}  alt="" />
                     </a>
                     
                     <a className="text-decoration-none" href="">
@@ -56,12 +56,12 @@ const HeroSection = () => {
                         <p className="footer_subtext text-white my-2 p-1">Google Play</p>
                         <img src={google_play} width={"23px"} height={"23px"}  alt="" />
                       </div> */}
-                      <img src={app_store_cta} width={"153px"} height={"47px"}  alt="" />
+                      <img src={app_store_svg} width={"153px"} height={"47px"}  alt="" />
                     </a>
             </div>
           </div>
 
-          <div className="ms-5 d-lg-block d-none">
+          <div className="d-lg-block d-none">
             {/* <img src={hero} alt="hero image" width={"474px"} height={"365px"} /> */}
             
             <Lottie options={globeOptions}

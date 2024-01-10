@@ -9,7 +9,7 @@ const Footer = () => {
   useEffect(() => { 
     setTimeout(() => {
         setButton(true)
-    }, 5000)
+    }, 10000)
   }, []);
 
   return (

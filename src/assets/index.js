@@ -4,6 +4,8 @@ export { default as google_play } from "./google_play.svg";
 export { default as app_store } from "./app_store.svg";
 export { default as app_store_cta } from "./app_store_cta.png";
 export { default as google_play_cta } from "./google_play_cta.png";
+export { default as app_store_svg } from "./app_store_svg.svg";
+export { default as google_play_svg } from "./google_play_svg.svg";
 export { default as currencyanimation } from "./currencyanimation.gif";
 export { default as fasst } from "./fasst.png";
 export { default as fasst_tagocash_logo } from "./fasst_tagocash_logo.png";
