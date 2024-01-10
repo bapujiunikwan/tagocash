@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useCookies } from "react-cookie";
 
 const Cookie = ({setButton, showButton}) => {
@@ -13,8 +13,7 @@ const Cookie = ({setButton, showButton}) => {
     setButton(false);
   }
 
-  useEffect(() => {
-   
+  useEffect(() => { 
     if (cookies.myAwesomeCookieName4 !== undefined) {
       setButton(false);  
     } else {

@@ -28,7 +28,7 @@ const FasstSection = () => {
               <div className="d-flex align-items-center gap-2">
                 <h3 className="sub_title why_tago_title">Why</h3>
                 <img
-                  className="fasst_tagocash_logo mt-2"
+                  className="fasst_tagocash_logo mt-md-2"
                   src={fasst_tagocash_logo}
                   width={"275px"}
                   height={"50px"}

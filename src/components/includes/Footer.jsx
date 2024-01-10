@@ -1,9 +1,16 @@
-import React, {useState} from "react";
-import { tagocash_logo, linkedin, instagram, twitter, google_play, app_store, facebook} from "../../assets";
+import React, {useState, useEffect} from "react";
+import { tagocash_logo, linkedin, instagram, twitter, google_play, app_store, google_play_cta,
+    app_store_cta, facebook} from "../../assets";
 import Cookie from "../cookies/Cookie";
 
 const Footer = () => {
-  const [showButton, setButton] = useState(true);
+  const [showButton, setButton] = useState(false);
+
+  useEffect(() => { 
+    setTimeout(() => {
+        setButton(true)
+    }, 5000)
+  }, []);
 
   return (
     <>
@@ -61,17 +68,19 @@ const Footer = () => {
 
                     <div className="d-flex social_links flex-md-column gap-3 margin_top">
                     <a className="text-decoration-none" href="">
-                        <div className="d-flex align-items-center justify-content-center app_link gap-2">
+                        {/* <div className="d-flex align-items-center justify-content-center app_link gap-2">
                             <p className="footer_subtext text-white my-2 p-1">App Store</p>
                             <img src={app_store} width={"23px"} height={"23px"}  alt="" />
-                        </div>
+                        </div> */}
+                        <img src={google_play_cta} width={"166px"} height={"47px"}  alt="" />
                         </a>
                         
                         <a className="text-decoration-none" href="">
-                        <div className="d-flex align-items-center justify-content-center app_link gap-1">
+                        {/* <div className="d-flex align-items-center justify-content-center app_link gap-1">
                             <p className="footer_subtext text-white my-2 p-1">Google Play</p>
                             <img src={google_play} width={"23px"} height={"23px"}  alt="" />
-                        </div>
+                        </div> */}
+                        <img src={app_store_cta} width={"153px"} height={"47px"}  alt="" />
                         </a>
                     </div>
                     

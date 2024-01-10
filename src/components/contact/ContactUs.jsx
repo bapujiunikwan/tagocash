@@ -15,7 +15,7 @@ const ContactUs = () => {
   return (
     <div className="contact_section position-relative">
       <div className='d-block d-md-none blue_background'>
-        <img className='position-absolute top-0 left-0' src={blue_background} width={"90%"} height={"140px"} alt="" />
+        <img className='position-absolute top-0 left-0' src={blue_background} width={"90%"} height={"300px"} alt="" />
       </div>                
       <div className='container position-relative pb-5'>
       <div className='d-md-flex align-items-center py-md-5 pb-3'>

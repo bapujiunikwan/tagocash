@@ -23,10 +23,11 @@ const Blogs = () => {
           </p>
         </div>
 
-        
+        <a href="/blogcontent" className="text-decoration-none text-black">
           <h5 className="card-title hero_subtitle card_title d-md-none d-block">
             Simplifying payment methods code in our new API version
           </h5>
+          </a>
         
         <div>
           <p className="blog_type_text blogs_page_subtext mt-3 d-md-none d-block">
@@ -35,6 +36,7 @@ const Blogs = () => {
         </div>
 
         <div className="d-lg-flex gap-5 featured_block_gap my-md-5">
+          <a href="/blogcontent">
           <div>
             <img
               className="blog_img_size"
@@ -44,6 +46,7 @@ const Blogs = () => {
               alt=""
             />
           </div>
+          </a>
           <div className="subscribe_block">
             <div className="card-body rounded shadow py-md-4 px-md-5 p-3">
               <div className="featured_article mb-4 d-none d-md-block">
@@ -101,7 +104,7 @@ const Blogs = () => {
         </div>
 
         <div className="d-md-flex justify-content-between mb-4 mt-4">
-          <div class="card mb-4 mb-md-0 shadow border-0 cards">
+          <div class="card mb-4 mb-md-0 shadow border cards">
             <a href="/blogcontent">
             <img
               src={blog_1}
@@ -136,7 +139,7 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div class="card mb-4 mb-md-0 shadow border-0 cards">
+          <div class="card mb-4 mb-md-0 shadow border cards">
           <a href="/blogcontent">
             <img
               src={blog_2}
@@ -171,7 +174,7 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div class="card mb-4 mb-md-0 shadow border-0 cards">
+          <div class="card mb-4 mb-md-0 shadow border cards">
           <a href="/blogcontent">
             <img
               src={blog_3}
@@ -208,7 +211,7 @@ const Blogs = () => {
         </div>
 
         <div className="d-md-flex justify-content-between my-md-5">
-          <div class="card mb-4 mb-md-0 shadow border-0 cards">
+          <div class="card mb-4 mb-md-0 shadow border cards">
             <a href="/blogcontent">
             <img
               src={blog_1}
@@ -243,7 +246,7 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div class="card mb-4 mb-md-0 shadow border-0 cards">
+          <div class="card mb-4 mb-md-0 shadow border cards">
           <a href="/blogcontent">
             <img
               src={blog_2}
@@ -278,7 +281,7 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div class="card mb-4 mb-md-0 shadow border-0 cards">
+          <div class="card mb-4 mb-md-0 shadow border cards">
           <a href="/blogcontent">
             <img
               src={blog_3}

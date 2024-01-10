@@ -2,6 +2,8 @@ export { default as tagocash_logo } from "./tagocash_logo.png";
 // begin hero section
 export { default as google_play } from "./google_play.svg";
 export { default as app_store } from "./app_store.svg";
+export { default as app_store_cta } from "./app_store_cta.png";
+export { default as google_play_cta } from "./google_play_cta.png";
 export { default as currencyanimation } from "./currencyanimation.gif";
 export { default as fasst } from "./fasst.png";
 export { default as fasst_tagocash_logo } from "./fasst_tagocash_logo.png";
@@ -48,12 +50,6 @@ export { default as twitter } from "./twitter.svg";
 // contact us page
 export { default as blue_background } from "./blue_background.png";
 
-
-
-// newsletter page 
-export { default as subscribe_animation } from "./subscribe_animation.gif";
-
-
 // blog content page
 export { default as blog_content_right } from "./blog_content_right.png";
 export { default as facebook } from "./facebook.svg";
@@ -61,6 +57,8 @@ export { default as formkit_link } from "./formkit_link.svg";
 
 //signup page
 export {default as tick_mark } from "./tick_mark.svg"
+export {default as hero_tick } from "./hero_tick.svg"
+
 
 
 

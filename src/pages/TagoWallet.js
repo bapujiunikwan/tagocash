@@ -1,5 +1,5 @@
 import React from 'react'
-import { subscribe_animation,blue_background } from '../assets'
+import {blue_background } from '../assets'
 import Lottie from "react-lottie";
 import walletLottie from "../assets/lottieFiles/wallet.json"
 
@@ -15,7 +15,7 @@ const TagoWallet = () => {
   return (
     <div className="newsletter_page position-relative">
       <div className='d-block d-md-none blue_background'>
-        <img className='position-absolute top-0 left-0' src={blue_background} width={"85%"} height={"150px"}  alt="" />
+        <img className='position-absolute top-0 left-0' src={blue_background} width={"85%"} height={"275px"}  alt="" />
       </div> 
       <div className='container position-relative pb-5'>
       <a href="/" className="text-decoration-none text-black">

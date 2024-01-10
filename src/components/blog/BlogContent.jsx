@@ -5,8 +5,9 @@ import {
   blog_3,
   blog_content_right,
   google_play,
-  apple_store,
   app_store,
+  google_play_cta,
+  app_store_cta,
   linkedin,
   instagram,
   twitter,
@@ -223,7 +224,7 @@ const BlogContent = () => {
 
                   <div className="d-flex flex-column gap-3 app_link_block">
                     <a className="text-decoration-none" href="">
-                      <div className="d-flex align-items-center justify-content-center app_link gap-2">
+                      {/* <div className="d-flex align-items-center justify-content-center app_link gap-2">
                         <p className="footer_subtext text-white my-2 p-1">
                           App Store
                         </p>
@@ -233,11 +234,12 @@ const BlogContent = () => {
                           height={"23px"}
                           alt=""
                         />
-                      </div>
+                      </div> */}
+                      <img src={google_play_cta} width={"166px"} height={"47px"}  alt="" />
                     </a>
 
                     <a className="text-decoration-none" href="">
-                      <div className="d-flex align-items-center justify-content-center app_link gap-2">
+                      {/* <div className="d-flex align-items-center justify-content-center app_link gap-2">
                         <p className="footer_subtext text-white my-2 p-1">
                           Google Play
                         </p>
@@ -247,7 +249,8 @@ const BlogContent = () => {
                           height={"23px"}
                           alt=""
                         />
-                      </div>
+                      </div> */}
+                      <img src={app_store_cta} width={"166px"} height={"47px"}  alt="" />
                     </a>
                   </div>
                 </div>
@@ -299,7 +302,7 @@ const BlogContent = () => {
 
         <h3 className="my-4 sub_title more_article_title">More Articles like this</h3>
         <div className="d-md-flex justify-content-between mb-4">
-          <div class="card shadow border-0 cards">
+          <div class="card shadow mb-4 mb-md-0 border cards">
             <a href="/blogcontent">
             <img
               src={blog_1}
@@ -334,7 +337,7 @@ const BlogContent = () => {
             </div>
           </div>
 
-          <div class="card shadow border-0 cards">
+          <div class="card shadow mb-4 mb-md-0 border cards">
           <a href="/blogcontent">
             <img
               src={blog_2}
@@ -369,7 +372,7 @@ const BlogContent = () => {
             </div>
           </div>
 
-          <div class="card shadow border-0 cards">
+          <div class="card shadow mb-4 mb-md-0 border cards">
           <a href="/blogcontent">
             <img
               src={blog_3}

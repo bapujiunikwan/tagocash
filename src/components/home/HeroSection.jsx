@@ -1,5 +1,5 @@
 import React from "react";
-import {app_store, google_play, currencyanimation } from "../../assets";
+import {app_store, google_play,app_store_cta, google_play_cta, currencyanimation } from "../../assets";
 import Lottie from "react-lottie";
 import heroLottie from "../../assets/lottieFiles/hero.json"
 
@@ -14,7 +14,7 @@ const HeroSection = () => {
   };
   return (
       <div className="container">
-        <div className="d-flex justify-content-center gap margin_top">
+        <div className="d-flex justify-content-center gap-3 margin_top">
           <div className="mt-5">
             <h1 className="hero_title text-center text-md-start">
               Everywhere you go, <span className="hero_title_tago">Tago!</span>
@@ -33,7 +33,7 @@ const HeroSection = () => {
               />
             </div>
             <div className="d-md-flex d-md-none align-items-center margin_top my-5 gap-2">
-          <h3 className="sub_title globally_title text-center text-md-start">Available Globally in 
+          <h3 className="sub_title globally_title text-center text-md-start">Available globally in 
           40+ currencies</h3>
           <div className="currency_animation_block">
             <img className="currencyanimation_image_size" src={currencyanimation} alt="currencies" width={"849px"} height={"64px"} />
@@ -44,17 +44,19 @@ const HeroSection = () => {
             </div>
             <div className="d-flex justify-content-center justify-content-lg-start gap-3 mt-md-5 mb-md-0 mb-5">
             <a className="text-decoration-none" href="">
-                      <div className="d-flex align-items-center justify-content-center app_link gap-2">
+                      {/* <div className="d-flex align-items-center justify-content-center app_link gap-2">
                         <p className="footer_subtext text-white my-2 p-1">App Store</p>
                         <img src={app_store} width={"23px"} height={"23px"}  alt="" />
-                      </div>
+                      </div> */}
+                      <img src={google_play_cta} width={"166px"} height={"47px"}  alt="" />
                     </a>
                     
                     <a className="text-decoration-none" href="">
-                      <div className="d-flex align-items-center justify-content-center app_link gap-2">
+                      {/* <div className="d-flex align-items-center justify-content-center app_link gap-2">
                         <p className="footer_subtext text-white my-2 p-1">Google Play</p>
                         <img src={google_play} width={"23px"} height={"23px"}  alt="" />
-                      </div>
+                      </div> */}
+                      <img src={app_store_cta} width={"153px"} height={"47px"}  alt="" />
                     </a>
             </div>
           </div>
@@ -70,11 +72,11 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="d-none d-md-flex flex-lg-row flex-column align-items-center margin_top mb-5 gap-3">
-          <h3 className="sub_title globally_title text-center text-md-start">Available Globally in 
+        <div className="d-none d-md-flex flex-lg-row flex-column align-items-center justify-content-between margin_top mb-5 gap-5">
+          <h3 className="sub_title globally_title text-center text-md-start">Available globally in 
           40+ currencies</h3>
           <div className="currency_animation_block">
-            <img className="currencyanimation_image_size" src={currencyanimation} alt="currencies" width={"849px"} height={"64px"} />
+            <img className="currencyanimation_image_size" src={currencyanimation} alt="currencies" width={"650px"} height={"45px"} />
           </div>
         </div>
       </div>

@@ -131,7 +131,7 @@ const BlogSection = () => {
           <Slider {...blogSettings}>
             <div>
               <div class="mb-4">
-                <div class="card border cards">
+                <div class="card cards">
                   <a href="/blogcontent">
                   <img
                     src={blog_1}

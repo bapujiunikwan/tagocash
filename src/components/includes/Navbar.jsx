@@ -29,7 +29,7 @@ const Navbar = () => {
         </li> 
       </ul>
       
-      <a href='/signup' className="my-2 me-3 btn button_color ms-md-0 ms-3 rounded-5 px-xl-5 py-xl-2 px-lg-3 py-lg-2 px-5 py-2">
+      <a href='/signup' className="my-2 me-3 btn button_color ms-md-0 ms-3 rounded-5 px-xl-5 py-xl-2 px-lg-3 py-lg-2 px-5 py-2 border-0 outline-0">
         <div className='fs-6 text-decoration-none text-white fw-normal'>Sign Up</div>
       </a>
       <br />

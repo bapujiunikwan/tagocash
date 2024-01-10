@@ -4,6 +4,8 @@ import {
   download_section_logo_mobile,
   google_play,
   app_store,
+  google_play_cta,
+  app_store_cta
 } from "../../assets";
 
 const DownloadApp = () => {
@@ -20,16 +22,18 @@ const DownloadApp = () => {
         </div>
         <div className="d-flex gap-3 app_link_position">
           <a className="text-decoration-none" href="">
-            <div className="d-flex align-items-center justify-content-center app_link gap-2">
+            {/* <div className="d-flex align-items-center justify-content-center app_link gap-2">
               <p className="footer_subtext text-white my-2 p-1">Google Play</p>
               <img src={google_play} width={"23px"} height={"23px"} alt="" />
-            </div>
+            </div> */}
+            <img src={google_play_cta} width={"166px"} height={"47px"}  alt="" />
           </a>
           <a className="text-decoration-none" href="">
-            <div className="d-flex align-items-center justify-content-center app_link gap-2">
+            {/* <div className="d-flex align-items-center justify-content-center app_link gap-2">
               <p className="footer_subtext text-white my-2 p-1">App Store</p>
               <img src={app_store} width={"23px"} height={"23px"} alt="" />
-            </div>
+            </div> */}
+            <img src={app_store_cta} width={"153px"} height={"47px"}  alt="" />
           </a>
         </div>
         <div className="container">
@@ -70,16 +74,18 @@ const DownloadApp = () => {
 
         <div className="d-flex flex-column align-items-center gap-3 mt-4 position-relative">
           <a className="text-decoration-none" href="">
-            <div className="d-flex align-items-center justify-content-center app_link gap-2">
+            {/* <div className="d-flex align-items-center justify-content-center app_link gap-2">
               <p className="footer_subtext text-white my-2 p-1">Google Play</p>
               <img src={google_play} width={"23px"} height={"23px"} alt="" />
-            </div>
+            </div> */}
+            <img src={google_play_cta} width={"166px"} height={"47px"}  alt="" />
           </a>
           <a className="text-decoration-none" href="">
-            <div className="d-flex align-items-center justify-content-center app_link gap-2">
+            {/* <div className="d-flex align-items-center justify-content-center app_link gap-2">
               <p className="footer_subtext text-white my-2 p-1">App Store</p>
               <img src={app_store} width={"23px"} height={"23px"} alt="" />
-            </div>
+            </div> */}
+            <img src={app_store_cta} width={"166px"} height={"47px"}  alt="" />
           </a>
         </div>
       </div>
