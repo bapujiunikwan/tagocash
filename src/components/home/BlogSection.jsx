@@ -20,7 +20,7 @@ const BlogSection = () => {
         </div>
 
         <div className="d-none d-md-flex justify-content-between my-4 gap-lg-3">
-          <div class="card shadow border-0 cards">
+          <div className="card shadow border-0 cards">
             <a href="/blogcontent">
               <img
                 src={blog_1}
@@ -55,7 +55,7 @@ const BlogSection = () => {
             </div>
           </div>
 
-          <div class="card shadow border-0 cards">
+          <div className="card shadow border-0 cards">
             <a href="/blogcontent">
               <img
                 src={blog_2}
@@ -90,7 +90,7 @@ const BlogSection = () => {
             </div>
           </div>
 
-          <div class="card shadow border-0 cards">
+          <div className="card shadow border-0 cards">
             <a href="/blogcontent">
               <img
                 src={blog_3}
@@ -130,8 +130,8 @@ const BlogSection = () => {
         <div className="d-md-none d-block mt-4">
           <Slider {...blogSettings}>
             <div>
-              <div class="mb-4">
-                <div class="card cards">
+              <div className="mb-4">
+                <div className="card cards">
                   <a href="/blogcontent">
                     <img
                       src={blog_1}
@@ -168,8 +168,8 @@ const BlogSection = () => {
               </div>
             </div>
             <div>
-              <div class="mb-4">
-                <div class="card border cards">
+              <div className="mb-4">
+                <div className="card border cards">
                   <a href="/blogcontent">
                     <img
                       src={blog_2}
@@ -206,8 +206,8 @@ const BlogSection = () => {
               </div>
             </div>
             <div>
-              <div class="mb-4">
-                <div class="card border cards">
+              <div className="mb-4">
+                <div className="card border cards">
                   <a href="/blogcontent">
                     <img
                       src={blog_3}
@@ -251,7 +251,7 @@ const BlogSection = () => {
           <a href="/blogs">
             <button
               type="button"
-              class="btn btn-primary rounded-5 px-3 py-2 mt-md-3 mt-5 mb-4"
+              className="btn btn-primary rounded-5 px-3 py-2 mt-md-3 mt-5 mb-4"
             >
               View All Blogs
             </button>

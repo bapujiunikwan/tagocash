@@ -84,7 +84,7 @@ function SignUp() {
           </p>
         </div>
         <div className="d-none d-md-flex gap-5 justify-content-center mt-5">
-          <div class="card shadow border-0 cards">
+          <div className="card shadow border-0 cards">
             <div className="free_plan text-center p-3">
               <h3 className="plan_title">Tago Fan</h3>
               <div className="plan_duration">
@@ -144,7 +144,7 @@ function SignUp() {
               <div className="text-center mt-4">
                 <button
                   type="button"
-                  class="btn button_color text-white rounded-5 px-4"
+                  className="btn button_color text-white rounded-5 px-4"
                 >
                   Sign up now !
                 </button>
@@ -152,7 +152,7 @@ function SignUp() {
             </div>
           </div>
 
-          <div class="card shadow border-0 cards">
+          <div className="card shadow border-0 cards">
             <div className="annual_plan text-center p-3">
               <h3 className="plan_title">Tago Hero</h3>
               <div className="plan_duration my-4">
@@ -204,7 +204,7 @@ function SignUp() {
               <div className="text-center">
                 <button
                   type="button"
-                  class="btn border-primary text-primary rounded-5 px-4"
+                  className="btn border-primary text-primary rounded-5 px-4"
                   data-bs-toggle="modal"
                   data-bs-target="#staticBackdrop"
                 >
@@ -216,27 +216,27 @@ function SignUp() {
         </div>
 
         <div
-          class="modal fade"
+          className="modal fade"
           id="staticBackdrop"
           data-bs-backdrop="static"
           data-bs-keyboard="false"
-          tabindex="-1"
+          tabIndex="-1"
           aria-labelledby="staticBackdropLabel"
           aria-hidden="true"
         >
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header border-bottom-0">
+          <div className="modal-dialog modal-dialog-centered">
+            <div className="modal-content">
+              <div className="modal-header border-bottom-0">
                 <button
                   type="button"
-                  class="btn-close"
+                  className="btn-close"
                   data-bs-dismiss="modal"
                   aria-label="Close"
                 ></button>
               </div>
               <div className="py-md-4 px-5">
                 <h1
-                  class="modal-title modal_title text-center text-md-start"
+                  className="modal-title modal_title text-center text-md-start"
                   id="staticBackdropLabel"
                 >
                   Pre - Register to be Notified{" "}
@@ -245,13 +245,13 @@ function SignUp() {
                   Tago Hero Coming in July 2024
                 </h4>
               </div>
-              <div class="modal-body px-5">
-                <div class="mb-4">
+              <div className="modal-body px-5">
+                <div className="mb-4">
                   <input
                     type="text"
                     value={name}
                     onChange={handleNameChange}
-                    class="form-control rounded-5 px-3 input_bg py-2 bg-secondary bg-opacity-10 border-0"
+                    className="form-control rounded-5 px-3 input_bg py-2 bg-secondary bg-opacity-10 border-0"
                     id="nameFormControlInput"
                     placeholder="Enter Name"
                   />
@@ -259,12 +259,12 @@ function SignUp() {
                     <p className="text-danger pt-2">{nameError}</p>
                   )}
                 </div>
-                <div class="mb-4">
+                <div className="mb-4">
                   <input
                     type="email"
                     value={email}
                     onChange={handleEmailChange}
-                    class="form-control rounded-5 bg-secondary bg-opacity-10 px-3 py-2 border-0"
+                    className="form-control rounded-5 bg-secondary bg-opacity-10 px-3 py-2 border-0"
                     id="emailFormControlInput"
                     placeholder="Enter Email"
                   />
@@ -298,7 +298,7 @@ function SignUp() {
                     disabled={
                       !isNameValid || !isEmailValid || !isPhoneNumberValid
                     }
-                    class="btn button_color text-white rounded-5 px-4 py-2 mb-md-5"
+                    className="btn button_color text-white rounded-5 px-4 py-2 mb-md-5"
                   >
                     Pre-Register
                   </button>
@@ -313,8 +313,8 @@ function SignUp() {
       <div className="d-md-none d-block mt-4">
         <Slider {...plansSettings}>
           <div>
-            <div class="me-2">
-              <div class="card border cards mb-5">
+            <div className="me-2">
+              <div className="card border cards mb-5">
                 <div className="free_plan text-center p-3">
                   <h3 className="plan_title">Tago Fan</h3>
                   <div className="plan_duration">
@@ -399,7 +399,7 @@ function SignUp() {
                   <div className="text-center mt-4">
                     <button
                       type="button"
-                      class="btn button_color text-white rounded-5 px-4"
+                      className="btn button_color text-white rounded-5 px-4"
                     >
                       Sign up now !
                     </button>
@@ -409,8 +409,8 @@ function SignUp() {
             </div>
           </div>
           <div>
-            <div class="me-2">
-              <div class="card border cards mb-5">
+            <div className="me-2">
+              <div className="card border cards mb-5">
                 <div className="annual_plan text-center p-3">
                   <h3 className="plan_title">Tago Hero</h3>
                   <div className="plan_duration my-4">
@@ -496,7 +496,7 @@ function SignUp() {
                   <div className="text-center mt-4">
                     <button
                       type="button"
-                      class="btn border-primary text-primary rounded-5 px-4"
+                      className="btn border-primary text-primary rounded-5 px-4"
                       data-bs-toggle="modal"
                       data-bs-target="#staticBackdrop"
                     >

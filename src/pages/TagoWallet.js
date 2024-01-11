@@ -102,23 +102,23 @@ const TagoWallet = () => {
                 Subscribe to our newsletter and be the first to know
               </p>
             </div>
-            <div class="my-4">
+            <div className="my-4">
               <input
                 type="text"
                 value={name}
                 onChange={handleNameChange}
-                class="form-control rounded-5 px-3 input_bg py-2 bg-secondary bg-opacity-10 border-0"
+                className="form-control rounded-5 px-3 input_bg py-2 bg-secondary bg-opacity-10 border-0"
                 id="nameFormControlInput"
                 placeholder="Enter Name *"
               />
               {!isNameValid && <p className="text-danger pt-2">{nameError}</p>}
             </div>
-            <div class="mb-4">
+            <div className="mb-4">
               <input
                 type="email"
                 value={email}
                 onChange={handleEmailChange}
-                class="form-control rounded-5 bg-secondary bg-opacity-10 px-3 py-2 border-0"
+                className="form-control rounded-5 bg-secondary bg-opacity-10 px-3 py-2 border-0"
                 id="emailFormControlInput"
                 placeholder="Enter Email *"
               />
@@ -150,7 +150,7 @@ const TagoWallet = () => {
                 type="button"
                 onClick={handleSubmit}
                 disabled={!isNameValid || !isEmailValid || !isPhoneNumberValid}
-                class="btn button_color text-white rounded-5 px-5 py-2 mb-md-5"
+                className="btn button_color text-white rounded-5 px-5 py-2 mb-md-5"
               >
                 Subscribe
               </button>

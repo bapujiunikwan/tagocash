@@ -140,25 +140,25 @@ const ContactUs = () => {
                 Please feel free to reach out and let our team assist you
               </p>
             </div>
-            <div class="mb-4">
+            <div className="mb-4">
               <input
                 type="text"
                 name="name"
                 value={name}
                 onChange={handleNameChange}
-                class="form-control rounded-5 px-3 py-2 border-0"
+                className="form-control rounded-5 px-3 py-2 border-0"
                 id="exampleFormControlInput1"
                 placeholder="Enter Name*"
               />
               {!isNameValid && <p className="text-danger pt-2">{nameError}</p>}
             </div>
-            <div class="mb-4">
+            <div className="mb-4">
               <input
                 type="email"
                 name="email"
                 value={email}
                 onChange={handleEmailChange}
-                class="form-control rounded-5 px-3 py-2 border-0"
+                className="form-control rounded-5 px-3 py-2 border-0"
                 id="exampleFormControlInput2"
                 placeholder="Enter Email*"
               />
@@ -185,12 +185,12 @@ const ContactUs = () => {
                 <p className="text-danger pt-2">{phoneNumberError}</p>
               )}
             </div>
-            <div class="my-4">
+            <div className="my-4">
               <textarea
                 name="textArea"
                 value={message}
                 onChange={handleMessageChange}
-                class="form-control rounded-5 px-3 py-3 border-0"
+                className="form-control rounded-5 px-3 py-3 border-0"
                 id="exampleFormControlTextarea4"
                 rows="3"
                 placeholder="Enter Message*"
@@ -200,9 +200,9 @@ const ContactUs = () => {
               )}
             </div>
             <div>
-              <div class="form-check d-flex align-items-center">
+              <div className="form-check d-flex align-items-center">
                 <input
-                  class="form-check-input rounded-0 p-2 me-3 pointer"
+                  className="form-check-input rounded-0 p-2 me-3 pointer"
                   type="checkbox"
                   name="checkbox"
                   checked={isChecked}
@@ -210,8 +210,8 @@ const ContactUs = () => {
                   id="flexCheckDefault"
                 />
                 <label
-                  class="form-check-label contact_subtext fs-6"
-                  for="flexCheckDefault"
+                  className="form-check-label contact_subtext fs-6"
+                  htmlFor="flexCheckDefault"
                 >
                   I would like to <strong>subscribe</strong> and await new
                   information
@@ -232,7 +232,7 @@ const ContactUs = () => {
                   !isCheckedValid
                 }
                 type="button"
-                class="btn button_color text-white rounded-5 px-5 py-2"
+                className="btn button_color text-white rounded-5 px-5 py-2"
               >
                 Submit
               </button>

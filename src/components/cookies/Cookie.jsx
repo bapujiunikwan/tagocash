@@ -14,7 +14,7 @@ const Cookie = ({ setButton, showButton }) => {
   };
 
   useEffect(() => {
-    if (cookies.myAwesomeCookieName4 !== undefined) {
+    if (cookies.tagocash !== undefined) {
       setButton(false);
     } else {
       setButton(true);
@@ -23,7 +23,7 @@ const Cookie = ({ setButton, showButton }) => {
 
   return (
     <>
-      <div className="cookie_bg position-sticky bottom-0 z-2">
+      <div className="cookie_bg position-fixed start-0 end-0 bottom-0 z-2">
         <div className="container py-3 px-4">
           <div className="d-flex justify-content-between">
             <h3 className="cookie_title">
@@ -55,7 +55,7 @@ const Cookie = ({ setButton, showButton }) => {
                 >
                   <button
                     type="button"
-                    class="btn border-primary text-primary rounded-5 px-4"
+                    className="btn border-primary text-primary rounded-5 px-4"
                   >
                     Accept
                   </button>

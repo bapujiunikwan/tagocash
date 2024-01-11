@@ -29,18 +29,18 @@ const BlogContent = () => {
           style={breadcrumbStyle}
           aria-label="breadcrumb"
         >
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item">
+          <ol className="breadcrumb">
+            <li className="breadcrumb-item">
               <a className="text-decoration-none text-black" href="/home">
                 Home
               </a>
             </li>
-            <li class="breadcrumb-item">
+            <li className="breadcrumb-item">
               <a className="text-decoration-none text-black" href="/blogs">
                 Blogs
               </a>
             </li>
-            <li class="breadcrumb-item text-black active" aria-current="page">
+            <li className="breadcrumb-item text-black active" aria-current="page">
               Payment
             </li>
           </ol>
@@ -319,7 +319,7 @@ const BlogContent = () => {
           More Articles like this
         </h3>
         <div className="d-md-flex justify-content-between mb-4">
-          <div class="card shadow mb-4 mb-md-0 border cards">
+          <div className="card shadow mb-4 mb-md-0 border cards">
             <a href="/blogcontent">
               <img
                 src={blog_1}
@@ -357,7 +357,7 @@ const BlogContent = () => {
             </div>
           </div>
 
-          <div class="card shadow mb-4 mb-md-0 border cards">
+          <div className="card shadow mb-4 mb-md-0 border cards">
             <a href="/blogcontent">
               <img
                 src={blog_2}
@@ -395,7 +395,7 @@ const BlogContent = () => {
             </div>
           </div>
 
-          <div class="card shadow mb-4 mb-md-0 border cards">
+          <div className="card shadow mb-4 mb-md-0 border cards">
             <a href="/blogcontent">
               <img
                 src={blog_3}

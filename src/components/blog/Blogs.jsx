@@ -107,7 +107,7 @@ const Blogs = () => {
         </div>
 
         <div className="d-md-flex justify-content-between mb-4 mt-4">
-          <div class="card mb-4 mb-md-0 shadow border cards">
+          <div className="card mb-4 mb-md-0 shadow border cards">
             <a href="/blogcontent">
               <img
                 src={blog_1}
@@ -145,7 +145,7 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div class="card mb-4 mb-md-0 shadow border cards">
+          <div className="card mb-4 mb-md-0 shadow border cards">
             <a href="/blogcontent">
               <img
                 src={blog_2}
@@ -183,7 +183,7 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div class="card mb-4 mb-md-0 shadow border cards">
+          <div className="card mb-4 mb-md-0 shadow border cards">
             <a href="/blogcontent">
               <img
                 src={blog_3}
@@ -223,7 +223,7 @@ const Blogs = () => {
         </div>
 
         <div className="d-md-flex justify-content-between my-md-5">
-          <div class="card mb-4 mb-md-0 shadow border cards">
+          <div className="card mb-4 mb-md-0 shadow border cards">
             <a href="/blogcontent">
               <img
                 src={blog_1}
@@ -261,7 +261,7 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div class="card mb-4 mb-md-0 shadow border cards">
+          <div className="card mb-4 mb-md-0 shadow border cards">
             <a href="/blogcontent">
               <img
                 src={blog_2}
@@ -299,7 +299,7 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div class="card mb-4 mb-md-0 shadow border cards">
+          <div className="card mb-4 mb-md-0 shadow border cards">
             <a href="/blogcontent">
               <img
                 src={blog_3}

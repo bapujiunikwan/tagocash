@@ -10,9 +10,9 @@ import {
 const MoreWithTagoCash = () => {
   return (
     <div className="container margin_top">
-      <div class="more_with_tago_features grid-container my-5">
+      <div className="more_with_tago_features grid-container my-5">
         <div className="row">
-          <div class="col-5">
+          <div className="col-5">
             <h2 className="hero_title get_more_title mt-3">Get more with </h2>
             <img
               className="get_more_logo"
@@ -22,7 +22,7 @@ const MoreWithTagoCash = () => {
               alt=""
             />
           </div>
-          <div class="col-7 rounded-3 get_more_feature_padding get_feature_box">
+          <div className="col-7 rounded-3 get_more_feature_padding get_feature_box">
             <div className="d-flex justify-content-center get_more_feature_padding">
               <div>
                 <img
@@ -42,7 +42,7 @@ const MoreWithTagoCash = () => {
           </div>
         </div>
 
-        <div class="item1 rounded-3 get_more_feature_padding get_feature_box">
+        <div className="item1 rounded-3 get_more_feature_padding get_feature_box">
           <div className="d-flex flex-column get_more_feature_padding">
             <div>
               <img
@@ -62,7 +62,7 @@ const MoreWithTagoCash = () => {
         </div>
 
         <div className="row gap-4 mt-3">
-          <div class="col rounded-3 get_more_feature_padding get_feature_box">
+          <div className="col rounded-3 get_more_feature_padding get_feature_box">
             <div className="d-flex">
               <div>
                 <img
@@ -80,7 +80,7 @@ const MoreWithTagoCash = () => {
               </div>
             </div>
           </div>
-          <div class="col rounded-3 get_more_feature_padding get_feature_box">
+          <div className="col rounded-3 get_more_feature_padding get_feature_box">
             <div className="d-flex justify-content-center mt-2">
               <div>
                 <img

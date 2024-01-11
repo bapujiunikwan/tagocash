@@ -500,7 +500,7 @@ const PaymentProcess = () => {
             <div className="d-md-none d-block mt-4">
               <Slider {...paymentSettings}>
                 <div>
-                  <div class="mb-2">
+                  <div className="mb-2">
                     <div className="feature_cards p-3">
                       <div className="d-flex gap-2">
                         <img
@@ -522,7 +522,7 @@ const PaymentProcess = () => {
                   </div>
                 </div>
                 <div>
-                  <div class="mb-2">
+                  <div className="mb-2">
                     <div className="feature_cards p-3">
                       <div className="d-flex gap-2">
                         <img
@@ -542,7 +542,7 @@ const PaymentProcess = () => {
                   </div>
                 </div>
                 <div>
-                  <div class="mb-2">
+                  <div className="mb-2">
                     <div className="feature_cards p-3">
                       <div className="d-flex gap-2">
                         <img

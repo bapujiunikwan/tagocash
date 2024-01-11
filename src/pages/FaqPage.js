@@ -7,11 +7,11 @@ function FaqPage() {
         Frequently Asked Questions
       </h3>
 
-      <div class="accordion pb-3" id="accordionExample">
-        <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
-          <h2 class="accordion-header">
+      <div className="accordion pb-3" id="accordionExample">
+        <div className="accordion-item border-0 shadow-sm mt-4 rounded-3">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseOne"
@@ -23,10 +23,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseOne"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               The Tago platform is a closed-loop environment where users can
               exchange digital cash. TagoCash operates the same way real world
               cash does. Within TagoCash wallet, users can instantly give cash
@@ -37,10 +37,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm rounded-3 mt-4">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm rounded-3 mt-4">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
@@ -52,10 +52,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseTwo"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               Putting your money in TagoCash wallet is the same as taking your
               money from the bank and putting it in your wallet or your purse.
               Your money just happens to be stored in digital form in TagoCash
@@ -63,10 +63,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm rounded-3 mt-4">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm rounded-3 mt-4">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseThree"
@@ -78,10 +78,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseThree"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               Security, Safety, Privacy, Affordability, Mobility and
               Transferability to name just a few.
               <ul>
@@ -117,10 +117,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm rounded-3 mt-4">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm rounded-3 mt-4">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseFour"
@@ -132,10 +132,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseFour"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               In TagoCash, you cannot send money to any stranger. The recipient
               needs to be added to your Partner's list. It is like Friends. You
               can invite anyone to sign up for TagoCash wallet for free. After
@@ -144,10 +144,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm rounded-3 mt-4">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm rounded-3 mt-4">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseFive"
@@ -159,10 +159,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseFive"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               There is no fee to open TagoCash cash account. Download the mobile
               app or register on the web for free. There is no fee to put money
               into your TagoCash Wallet Account. There are two membership plans
@@ -177,10 +177,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm mt-4 rounded-3">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseSix"
@@ -192,10 +192,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseSix"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               For Tago Fan users, TagoCash is free to send and to receive for
               the first 30 days or for as long as there is more than $30 in your
               wallet. Otherwise, you will incur a $.50 charge for any transfer
@@ -209,10 +209,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm mt-4 rounded-3">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseSeven"
@@ -224,10 +224,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseSeven"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               Yes, TagoCash is available globally. Cash is available everywhere,
               so is TagoCash. TagoCash is available in almost all countries and
               can be used in most countries of the world. However, TagoCash
@@ -239,10 +239,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm mt-4 rounded-3">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseEight"
@@ -254,10 +254,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseEight"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               You can send money to any TagoCash user. If your potential
               recipient does not have TagoCash, you can just send him a request
               via your TagoCash app console and he/she will receive a
@@ -267,10 +267,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm mt-4 rounded-3">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseNine"
@@ -282,10 +282,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseNine"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               In real life, giving cash to someone is an instantaneous and free
               transaction.. Same with TagoCash. With TagoCash, sending cash or
               giving money to someone is instantaneous and free! It takes the
@@ -294,10 +294,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm mt-4 rounded-3">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseTen"
@@ -310,10 +310,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseTen"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               Most withdrawals are instantaneous. In some cases, like transfer
               to a bank, the bank may post the balance after some time. It may
               take 30 min to 2 hours depending on the bank. In 90% of the cases,
@@ -324,10 +324,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm mt-4 rounded-3">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseEleven"
@@ -340,10 +340,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseEleven"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               In most cases, the transfer is fast but depends on the country and
               banks. TagoCash has no control over the timing. We will show the
               balance as soon as the cash is received from your financial
@@ -352,10 +352,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm mt-4 rounded-3">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwelve"
@@ -367,20 +367,20 @@ function FaqPage() {
           </h2>
           <div
             id="collapseTwelve"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               At the moment, TagoCash only accepts bank transfers, debit cards,
               and mobile moment transfers. Credit card transfers are currently
               not supported.
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm mt-4 rounded-3">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseThirteen"
@@ -392,10 +392,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseThirteen"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               All your information is encrypted and saved in your Tago Wallet.
               Neither the Tago Platform nor the TagoBits employees have access
               to it. Your wallet is a self custody wallet. That means you are
@@ -404,10 +404,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm mt-4 rounded-3">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseFourteen"
@@ -419,10 +419,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseFourteen"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               Your wallet is a self custody wallet. That means you are the
               guardian of your information. You enter it in your wallet to
               permit your wallet to execute an operation. Your information is
@@ -430,10 +430,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm mt-4 rounded-3">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseFifteen"
@@ -445,20 +445,20 @@ function FaqPage() {
           </h2>
           <div
             id="collapseFifteen"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               We are ensuring compliance with the latest regulations and
               improved standards for KYC verification, introduced in the United
               State and Europe
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm mt-4 rounded-3">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseSixteen"
@@ -471,10 +471,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseSixteen"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               Our current KYC system incorporates essential data compliance and
               technical security enhancements. <br />
               KYC verification is required for following operations: <br />
@@ -492,10 +492,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm mt-4 rounded-3">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseSeventeen"
@@ -507,10 +507,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseSeventeen"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               Yes. The Tago Platform will not allow anyone from the list of
               countries included in the OFAC sanctions to open or operate
               TagoCash. <br />
@@ -527,10 +527,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm mt-4 rounded-3">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseSeventeen"
@@ -542,10 +542,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseSeventeen"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               Yes. The Tago Platform will not allow anyone from the list of
               countries included in the OFAC sanctions to open or operate
               TagoCash. <br />
@@ -562,10 +562,10 @@ function FaqPage() {
             </div>
           </div>
         </div>
-        <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
-          <h2 class="accordion-header">
+        <div className="accordion-item border-0 shadow-sm mt-4 rounded-3">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed faq_bg"
+              className="accordion-button collapsed faq_bg"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseEighteen"
@@ -577,10 +577,10 @@ function FaqPage() {
           </h2>
           <div
             id="collapseEighteen"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body faq_bg">
+            <div className="accordion-body faq_bg">
               In addition to the countries listed, there are government and
               international restrictions placed on individuals. TagoCash, using
               partner vetting services, will identify those and take proper

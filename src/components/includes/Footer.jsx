@@ -12,11 +12,12 @@ import Cookie from "../cookies/Cookie";
 
 const Footer = () => {
   const [showButton, setButton] = useState(false);
+  const [year, setYear] = useState(new Date().getFullYear());
 
   useEffect(() => {
     setTimeout(() => {
       setButton(true);
-    }, 10000);
+    }, 5000);
   }, []);
 
   return (
@@ -184,7 +185,7 @@ const Footer = () => {
 
         <div className="mt-md-5 mt-4">
           <p className="text-center footer_subtext trademark">
-            TagoCash is ©2023 Trademark Registered by TagoBits, Inc.
+            TagoCash is ©{year} Trademark Registered by TagoBits, Inc.
           </p>
         </div>
       </div>
