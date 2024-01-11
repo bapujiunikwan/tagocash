@@ -581,7 +581,10 @@ function FaqPage() {
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body faq_bg">
-            In addition to the countries listed, there are government and international restrictions placed on individuals. TagoCash, using partner vetting services, will identify those and take proper actions accordingly.
+              In addition to the countries listed, there are government and
+              international restrictions placed on individuals. TagoCash, using
+              partner vetting services, will identify those and take proper
+              actions accordingly.
             </div>
           </div>
         </div>

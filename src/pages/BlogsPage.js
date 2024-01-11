@@ -1,14 +1,14 @@
-import React from 'react'
-import Blogs from '../components/blog/Blogs'
-import NewsLetterSection from '../components/home/NewsLetterSection'
+import React from "react";
+import Blogs from "../components/blog/Blogs";
+import NewsLetterSection from "../components/home/NewsLetterSection";
 
 const BlogsPage = () => {
   return (
     <div>
-      <Blogs/>
-      <NewsLetterSection/>
+      <Blogs />
+      <NewsLetterSection />
     </div>
-  )
-}
+  );
+};
 
-export default BlogsPage
+export default BlogsPage;

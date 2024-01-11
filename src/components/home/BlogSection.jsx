@@ -15,7 +15,7 @@ const BlogSection = () => {
       <div className="container">
         <div>
           <h3 className="blog_title sub_title mt-5 mb-2">
-            Stay Updated with our Blog
+            Stay updated with our blog
           </h3>
         </div>
 
@@ -43,9 +43,9 @@ const BlogSection = () => {
                 </div>
               </div>
               <a href="/blogcontent" className="text-decoration-none">
-              <h5 className="card-title download_app_subtext text-black question_blog fw-semibold">
-                Simplifying payment methods code in our new API version
-              </h5>
+                <h5 className="card-title download_app_subtext text-black question_blog fw-semibold">
+                  Simplifying payment methods code in our new API version
+                </h5>
               </a>
               <p className="card-text footer_subtext pb-2">
                 You can now configure payment method settings from the
@@ -57,13 +57,13 @@ const BlogSection = () => {
 
           <div class="card shadow border-0 cards">
             <a href="/blogcontent">
-            <img
-              src={blog_2}
-              className="card-img-top p-2"
-              alt=""
-              width={"352px"}
-              height={"258px"}
-            />
+              <img
+                src={blog_2}
+                className="card-img-top p-2"
+                alt=""
+                width={"352px"}
+                height={"258px"}
+              />
             </a>
             <div className="card-body">
               <div className="d-flex justify-content-between gap-2">
@@ -78,9 +78,9 @@ const BlogSection = () => {
                 </div>
               </div>
               <a href="/blogcontent" className="text-decoration-none">
-              <h5 className="card-title download_app_subtext text-black question_blog fw-semibold">
-                Simplifying payment methods code in our new API version
-              </h5>
+                <h5 className="card-title download_app_subtext text-black question_blog fw-semibold">
+                  Simplifying payment methods code in our new API version
+                </h5>
               </a>
               <p className="card-text footer_subtext pb-2">
                 You can now configure payment method settings from the
@@ -92,13 +92,13 @@ const BlogSection = () => {
 
           <div class="card shadow border-0 cards">
             <a href="/blogcontent">
-            <img
-              src={blog_3}
-              className="card-img-top p-2"
-              alt=""
-              width={"352px"}
-              height={"258px"}
-            />
+              <img
+                src={blog_3}
+                className="card-img-top p-2"
+                alt=""
+                width={"352px"}
+                height={"258px"}
+              />
             </a>
             <div className="card-body">
               <div className="d-flex justify-content-between gap-2">
@@ -113,9 +113,9 @@ const BlogSection = () => {
                 </div>
               </div>
               <a href="/blogcontent" className="text-decoration-none">
-              <h5 className="card-title download_app_subtext text-black question_blog fw-semibold">
-                Simplifying payment methods code in our new API version
-              </h5>
+                <h5 className="card-title download_app_subtext text-black question_blog fw-semibold">
+                  Simplifying payment methods code in our new API version
+                </h5>
               </a>
               <p className="card-text footer_subtext pb-2">
                 You can now configure payment method settings from the
@@ -133,13 +133,13 @@ const BlogSection = () => {
               <div class="mb-4">
                 <div class="card cards">
                   <a href="/blogcontent">
-                  <img
-                    src={blog_1}
-                    className="card-img-top p-2"
-                    alt=""
-                    width={"352px"}
-                    height={"258px"}
-                  />
+                    <img
+                      src={blog_1}
+                      className="card-img-top p-2"
+                      alt=""
+                      width={"352px"}
+                      height={"258px"}
+                    />
                   </a>
                   <div className="card-body">
                     <div className="d-flex justify-content-between">
@@ -154,9 +154,9 @@ const BlogSection = () => {
                       </div>
                     </div>
                     <a href="/blogcontent" className="text-decoration-none">
-                    <h5 className="card-title download_app_subtext text-black question_blog fw-semibold">
-                      Simplifying payment methods code in our new API version
-                    </h5>
+                      <h5 className="card-title download_app_subtext text-black question_blog fw-semibold">
+                        Simplifying payment methods code in our new API version
+                      </h5>
                     </a>
                     <p className="card-text footer_subtext pb-2">
                       You can now configure payment method settings from the
@@ -171,13 +171,13 @@ const BlogSection = () => {
               <div class="mb-4">
                 <div class="card border cards">
                   <a href="/blogcontent">
-                  <img
-                    src={blog_2}
-                    className="card-img-top p-2"
-                    alt=""
-                    width={"352px"}
-                    height={"258px"}
-                  />
+                    <img
+                      src={blog_2}
+                      className="card-img-top p-2"
+                      alt=""
+                      width={"352px"}
+                      height={"258px"}
+                    />
                   </a>
                   <div className="card-body">
                     <div className="d-flex justify-content-between">
@@ -192,9 +192,9 @@ const BlogSection = () => {
                       </div>
                     </div>
                     <a href="/blogcontent" className="text-decoration-none">
-                    <h5 className="card-title download_app_subtext text-black question_blog fw-semibold">
-                      Simplifying payment methods code in our new API version
-                    </h5>
+                      <h5 className="card-title download_app_subtext text-black question_blog fw-semibold">
+                        Simplifying payment methods code in our new API version
+                      </h5>
                     </a>
                     <p className="card-text footer_subtext pb-2">
                       You can now configure payment method settings from the
@@ -209,13 +209,13 @@ const BlogSection = () => {
               <div class="mb-4">
                 <div class="card border cards">
                   <a href="/blogcontent">
-                  <img
-                    src={blog_3}
-                    className="card-img-top p-2"
-                    alt=""
-                    width={"352px"}
-                    height={"258px"}
-                  />
+                    <img
+                      src={blog_3}
+                      className="card-img-top p-2"
+                      alt=""
+                      width={"352px"}
+                      height={"258px"}
+                    />
                   </a>
                   <div className="card-body">
                     <div className="d-flex justify-content-between">
@@ -230,9 +230,9 @@ const BlogSection = () => {
                       </div>
                     </div>
                     <a href="/blogcontent" className="text-decoration-none">
-                    <h5 className="card-title download_app_subtext text-black question_blog fw-semibold">
-                      Simplifying payment methods code in our new API version
-                    </h5>
+                      <h5 className="card-title download_app_subtext text-black question_blog fw-semibold">
+                        Simplifying payment methods code in our new API version
+                      </h5>
                     </a>
                     <p className="card-text footer_subtext pb-2">
                       You can now configure payment method settings from the

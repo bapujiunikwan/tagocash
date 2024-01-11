@@ -3,9 +3,11 @@ import React from "react";
 const Faq = () => {
   return (
     <div className="container">
-      <h3 className="sub_title my-4 text-center get_more_title">Frequently Asked Questions</h3>
-      
-      <div class="accordion pb-3"  id="accordionExample">
+      <h3 className="sub_title my-4 text-center get_more_title">
+        Frequently Asked Questions
+      </h3>
+
+      <div class="accordion pb-3" id="accordionExample">
         <div class="accordion-item border-0 shadow-sm mt-4 rounded-3">
           <h2 class="accordion-header">
             <button
@@ -209,10 +211,15 @@ const Faq = () => {
         </div>
       </div>
 
-      <div className='text-center'>
-                <a href="/faq">
-                    <button type="button" class="btn btn-primary rounded-5 px-4 py-2 mt-4 mb-5">View All</button>
-                </a>
+      <div className="text-center">
+        <a href="/faq">
+          <button
+            type="button"
+            class="btn btn-primary rounded-5 px-4 py-2 mt-4 mb-5"
+          >
+            View All
+          </button>
+        </a>
       </div>
     </div>
   );
