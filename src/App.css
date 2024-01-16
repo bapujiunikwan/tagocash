@@ -218,6 +218,7 @@
 .get_more_title {
   font-size: 48px;
 }
+
 .grid-container {
   display: grid;
   grid-template-rows: 1fr 1fr;

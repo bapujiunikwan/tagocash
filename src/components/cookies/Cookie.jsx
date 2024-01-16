@@ -14,11 +14,11 @@ const Cookie = ({ setButton, showButton }) => {
   };
 
   useEffect(() => {
-    if (cookies.tagocash !== undefined) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
+    // if (cookies.tagocash !== undefined) {
+    //   setButton(false);
+    // } else {
+    //   setButton(true);
+    // }
   }, []);
 
   return (

@@ -9,15 +9,21 @@ import {
   facebook,
 } from "../../assets";
 import Cookie from "../cookies/Cookie";
+import { useCookies } from "react-cookie";
 
 const Footer = () => {
   const [showButton, setButton] = useState(false);
   const [year, setYear] = useState(new Date().getFullYear());
+  const [cookies, setCookie] = useCookies(["tagocash"]);
 
   useEffect(() => {
-    setTimeout(() => {
-      setButton(true);
-    }, 5000);
+    if (cookies.tagocash !== undefined) {
+      setButton(false);
+    } else {
+      setTimeout(() => {
+        setButton(true);
+      }, 5000);
+    }
   }, []);
 
   return (
