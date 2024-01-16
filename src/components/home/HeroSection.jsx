@@ -24,10 +24,10 @@ const HeroSection = () => {
             Everywhere you go, <span className="hero_title_tago">Tago!</span>
           </h1>
           <h3 className="hero_subtitle subtitle_small mt-3 text-center text-md-start">
-            TagoCash is your cash stored in digital wallet
+            TagoCash is your digital cash wallet.
             <br />
             <span className="sub_text hero_subtext">
-              Take it with you where ever you go!
+              Take it with you whereever you go!
             </span>
           </h3>
 
@@ -48,9 +48,9 @@ const HeroSection = () => {
               />
             </div>
           </div>
-          <div className="d-md-none d-block text-center mb-4 footer_subtext">
+          {/* <div className="d-md-none d-block text-center mb-4 footer_subtext">
             Download now , on
-          </div>
+          </div> */}
           <div className="d-flex justify-content-center justify-content-lg-start gap-3 mt-md-5 mb-md-0 mb-5">
             <a className="text-decoration-none" href="">
               <img
