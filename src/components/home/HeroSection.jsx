@@ -27,7 +27,7 @@ const HeroSection = () => {
             TagoCash is your digital cash wallet.
             <br />
             <span className="sub_text hero_subtext">
-              Take it with you whereever you go!
+              Take it with you wherever you go!
             </span>
           </h3>
 

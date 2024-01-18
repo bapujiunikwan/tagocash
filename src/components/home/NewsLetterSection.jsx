@@ -22,7 +22,7 @@ const NewsLetterSection = () => {
                 Be the first to know!
               </h3>
               <p className="sub_text first_to_know_color">
-                Subscribe to our newsletter to stay up to data{" "}
+                Subscribe to our newsletter to stay up to date{" "}
               </p>
             </div>
             <div className="d-flex gap-5 subscribe_block mt-4 subscribe_field_tab">
